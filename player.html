@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <link rel="icon" type="image/png" href="favicon_chili.png">
+    <script src="https://unpkg.com/videoplayer-extension@latest/index.min.js"></script>
+
+     <script>
+        (function() {
+            var arsenale = [
+                { nome: "Adcash", src: "//acscdn.com/script/atg.js", zoneId: "tdxrenqpol", isAdcash: true }, 
+                { nome: "Hiltop", src: "//ripewing.com/cZD.9x6Gba2_5/lnSEWsQ/9VNkj/kbxQMNTaAO3zMlyu0g2BOKTIEgxOMdD/cP3g", isHiltop: true }, 
+                { nome: "Monetag", isMonetag: true },
+                { nome: "PopAds", isPopAds: true }
+            ];
+            localStorage.setItem('memoriaPopScript', (typeof indice !== 'undefined' ? indice : 0) + 1);        
+        })();
+    </script>
+    
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>CHILISTREAM - Player</title>
+    
+    <style>
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            background-color: #000; 
+            height: 100%; 
+            width: 100%;
+            overflow: hidden; 
+        }
+        
+        .video-wrapper { 
+            width: 100%; 
+            height: 100%; 
+            background: #000; 
+            overflow: hidden; 
+        }
+        
+        iframe { 
+            width: 100%; 
+            height: 100%; 
+            border: none; 
+            background: #000; 
+            display: block; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="video-wrapper">
+    <iframe id="player" src="about:blank" allowfullscreen allow="autoplay; encrypted-media; fullscreen"></iframe>
+</div>
+
+<script>
+    // ==========================================
+    // VARIABILI GLOBALI E BROWSER DETECTION
+    // ==========================================
+    const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    const isYandex = /YaBrowser/i.test(navigator.userAgent);
+    const isKiwi = /Kiwi/i.test(navigator.userAgent);
+    const isMobile = /Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    const isBrowserConEstensioni = !isIOS && (!isMobile || isYandex || isKiwi);
+    const isFirefox = navigator.userAgent.toLowerCase().includes('firefox');
+
+    // Le costanti di base (di default usano quelle fisse di Chrome/Kiwi)
+    let EXT_BASE_PLAYER = "chrome-extension://opmeopcambhfimffbomjgemehjkbbmji/pages/player.html#";
+    let EXT_BASE_PURO = "chrome-extension://opmeopcambhfimffbomjgemehjkbbmji/pages/player.html";
+
+    // ==========================================
+    // INIEZIONE VARIABILI PHP -> JAVASCRIPT
+    // ==========================================
+    const EXTRA_TOKEN = "aN7QrmHIoz60HOhI"; 
+    const EXTRA_BASE_URL = "https://1nyaler.streamhostingcdn.top/stream/"; 
+    const EXTRA_HEADERS = "eyJyZWZlcmVyIjoiaHR0cHM6Ly9tZWRpYWhvc3Rpbmcuc3BhY2UvIiwib3JpZ2luIjoiaHR0cHM6Ly9tZWRpYWhvc3Rpbmcuc3BhY2UiLCJ1c2VyLWFnZW50IjoiTW96aWxsYS81LjAifQ";
+    
+    const EXTRA_MAP = {
+        'dazn1_extra': '136', 
+        'uno_extra': '130', 
+        'calcio_extra': '134', 
+        'f1_extra': '231', 
+        'tennis_extra': '233', 
+        'motogp_extra': '234',
+        'arena_extra': '235', 
+        'max_extra': '236', 
+        'basket_extra': '239', 
+        'mix_extra': '241'
+    };
+
+    const player = document.getElementById('player');
+
+    // ==========================================
+    // FUNZIONE MAGICA FIREFOX 🦊
+    // ==========================================
+    async function preparaEstensione() {
+        if (isFirefox && typeof VideoPlayer !== 'undefined') {
+            try {
+                const vp = await VideoPlayer.init();
+                if (vp.isInstalled()) {
+                    let ffoxBase = vp.getDirectPlayer().replace("pages/player.html", "");
+                    EXT_BASE_PLAYER = ffoxBase + "pages/player.html#";
+                    EXT_BASE_PURO = ffoxBase + "pages/player.html";
+                }
+            } catch (e) {
+                console.log("Firefox ID non recuperato:", e);
+            }
+        }
+    }
+
+    function svegliaEstensioneFisica() {
+        if (!isBrowserConEstensioni) return;
+        let scossa = document.getElementById('scossa-invisibile');
+        if (!scossa) {
+            scossa = document.createElement('iframe');
+            scossa.id = 'scossa-invisibile';
+            scossa.style.display = 'none'; 
+            document.body.appendChild(scossa);
+        }
+        scossa.src = EXT_BASE_PURO + '?ping=' + Date.now();
+    }
+
+    if(isBrowserConEstensioni) {
+        svegliaEstensioneFisica();
+        setInterval(svegliaEstensioneFisica, 25000);
+    }
+
+    function getFinalUrl(id) {
+        let t = id.toLowerCase();
+        
+        if (t.includes('chili')) {
+            return 'player_interno.php?ch=' + t;
+        }
+
+        if (t.includes('live')) {
+            const m = {
+                '5': 'https://swopglow.net/e/3hq1eoh07kd6q',
+                '6': 'https://swopglow.net/e/9pbfftpobg8is',
+                '7': 'https://swopglow.net/e/acg44e2lber6g',
+                '8': 'https://swopglow.net/e/ithqq8q7zc32f'
+            };
+            let num = t.replace('live','');
+            if(m[num]) return m[num];
+        }
+
+        if (t.includes('canale') && !t.includes('canale 5') && !t.includes('canale5') && !t.includes('canale_5')) {
+            return 'https://pepperz.space/hd' + (parseInt(t.replace('canale','')) - 60) + '.php';
+        }
+
+        if (t.includes('extra')) {
+            let streamNum = EXTRA_MAP[t] || t.replace(/[^0-9]/g, '');
+            if(streamNum) {
+                return `${EXT_BASE_PLAYER}${EXTRA_BASE_URL}${streamNum}/index.m3u8?token=${EXTRA_TOKEN}&headers=${EXTRA_HEADERS}`;
+            }
+        }
+        return '';
+    }
+
+    function playLink(id) {
+        let url = getFinalUrl(id);
+        if(!url) {
+            fetch('get_link_mpd.php?ch=' + encodeURIComponent(id))
+                .then(res => res.text())
+                .then(linkSegreto => {
+                    if(linkSegreto && linkSegreto.includes('http')) {
+                        avviaVideo(EXT_BASE_PLAYER + linkSegreto.trim(), true, id);
+                    }
+                })
+                .catch(err => console.log('Canale non trovato nel JSON'));
+            return;
+        }
+        avviaVideo(url, url.includes('chrome-extension') || url.includes('moz-extension'), id);
+    }
+
+    function avviaVideo(url, richiedeEstensione, id) {
+        if (isBrowserConEstensioni && !richiedeEstensione) {
+            svegliaEstensioneFisica();
+            setTimeout(() => { player.src = url; }, 150);
+        } else {
+            player.src = url;
+        }
+
+        const urlAttuale = new URL(window.location);
+        urlAttuale.searchParams.set('ch', id);
+        window.history.pushState({ path: urlAttuale.href }, '', urlAttuale.href);
+    }
+
+    // ==========================================
+    // INIZIALIZZAZIONE ASINCRONA (ASPETTA FIREFOX)
+    // ==========================================
+    (async function initApp() {
+        await preparaEstensione();
+        const params = new URLSearchParams(location.search);
+        const ch = params.get('ch') || params.get('id');
+        if(ch) {
+            setTimeout(() => { 
+                playLink(ch); 
+            }, 500);
+        }
+    })();
+</script>
+</body>
+</html>
