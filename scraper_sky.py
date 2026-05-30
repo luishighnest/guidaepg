@@ -41,16 +41,28 @@ class SkyScraper:
                 {"u": "tv8", "n": "TV8"},
                 {"u": "nove", "n": "Nove"},
                 {"u": "canale-20", "n": "20 Mediaset"},
+                {"u": "mediaset-27", "n": "Twentyseven"},
+                {"u": "iris", "n": "IRIS"},
+                {"u": "rai-movie", "n": "Rai Movie"},
+                {"u": "rai-Premium", "n": "Rai Premium"},
+                {"u": "la-5", "n": "La 5"},
                 {"u": "real-time", "n": "Real Time"},
+                {"u": "food-network", "n": "Food Network"},
+                {"u": "focus", "n": "Focus"},
+                {"u": "giallo", "n": "Giallo"},
                 {"u": "boing", "n": "Boing"},
                 {"u": "k2", "n": "K2"},
                 {"u": "rai-gulp", "n": "Rai Gulp"},
                 {"u": "frisbee", "n": "Frisbee"},
                 {"u": "dmax", "n": "DMAX"},
                 {"u": "rai-sport", "n": "Rai Sport"},
-                {"u": "sportitalia", "n": "Sportitalia"}
+                {"u": "sportitalia", "n": "Sportitalia"},
+                {"u": "home-and-garden-tv", "n": "HGTV"},
+                {"u": "rsi-la1", "n": "RSI LA 1"},
+                {"u": "rsi-la2", "n": "RSI LA 2"}
             ],
             "Sport": [
+                {"u": "zona-dazn", "n": "DAZN 1"},
                 {"u": "sky-sport-24", "n": "Sky Sport 24"},
                 {"u": "sky-sport-uno", "n": "Sky Sport Uno"},
                 {"u": "sky-sport-calcio", "n": "Sky Sport Calcio"},
@@ -71,13 +83,13 @@ class SkyScraper:
                 {"u": "sky-sport-hd-6", "n": "Sky Sport 256"},
                 {"u": "sky-sport-hd-7", "n": "Sky Sport 257"},
                 {"u": "sky-sport-hd-8", "n": "Sky Sport 258"},
-                {"u": "sky-sport-hd-9", "n": "Sky Sport 259"},
-                {"u": "eurosport-1", "n": "Eurosport 1"},
-                {"u": "eurosport-2", "n": "Eurosport 2"}
+                {"u": "sky-sport-hd-9", "n": "Sky Sport 259"}
             ],
             "Cinema": [
                 {"u": "sky-cinema-uno", "n": "Sky Cinema Uno"},
-                {"u": "sky-cinema-uno-plus-24", "n": "Sky Cinema Uno +24"},
+                {"u": "sky-cinema-uno-+24-hd", "n": "Sky Cinema Uno +24"},
+                {"u": "sky-cinema-due", "n": "Sky Cinema Due"},
+                {"u": "sky-cinema-due-+24-hd", "n": "Sky Cinema Due +24"},
                 {"u": "sky-cinema-collection", "n": "Sky Cinema Collection"},
                 {"u": "sky-cinema-stories", "n": "Sky Cinema Stories"},
                 {"u": "sky-cinema-family", "n": "Sky Cinema Family"},
@@ -89,9 +101,8 @@ class SkyScraper:
             ],
             "Intrattenimento": [
                 {"u": "sky-uno", "n": "Sky Uno"},
-                {"u": "sky-uno-plus-1", "n": "Sky Uno +1"},
+                {"u": "sky-uno-+1-hd", "n": "Sky Uno +1"},
                 {"u": "sky-atlantic", "n": "Sky Atlantic"},
-                {"u": "sky-atlantic-plus-1", "n": "Sky Atlantic +1"},
                 {"u": "sky-serie", "n": "Sky Serie"},
                 {"u": "sky-investigation", "n": "Sky Investigation"},
                 {"u": "sky-crime", "n": "Sky Crime"},
@@ -109,7 +120,8 @@ class SkyScraper:
             ],
             "News": [
                 {"u": "sky-tg24", "n": "Sky TG 24"},
-                {"u": "sky-meteo-24", "n": "Sky Meteo 24"}
+                {"u": "sky-meteo-24", "n": "Sky Meteo 24"},
+                {"u": "rai-news-24", "n": "Rai News 24"}
             ]
         }
 
