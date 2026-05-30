@@ -1,5 +1,5 @@
 /* Base URL per tutti i canali */
-const STREAM_BASE = "https://123456.sk";
+const STREAM_BASE = "https://www.lololololo.sk/live.php?ch=";
 
 const CHANNELS = [
     // ── DIGITALE TERRESTRE ──
