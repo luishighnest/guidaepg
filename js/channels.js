@@ -1,5 +1,5 @@
 /* Base URL per tutti i canali */
-const STREAM_BASE = "https://www.google.com/search?q=";
+const STREAM_BASE = "https://www.chilistream.net/live.php?ch=";
 
 const CHANNELS = [
     // ── DIGITALE TERRESTRE ──
