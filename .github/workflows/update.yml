@@ -1,4 +1,4 @@
-riscrivi il codice intero, name: Aggiorna JSON
+name: Aggiorna JSON
 
 on:
   schedule:
