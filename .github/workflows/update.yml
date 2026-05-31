@@ -1,0 +1,71 @@
+name: Aggiorna JSON e Deploy su InfinityFree
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'   # ogni 10 minuti
+
+  workflow_dispatch:           # avvio manuale dal tab Actions
+
+permissions:
+  contents: write
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clona repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Installa dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Esegui scraper
+        run: python scraper_sky.py
+
+      - name: Commit JSON aggiornato nel repo
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add guida_tv_sky.json
+          git commit -m "Aggiornamento automatico JSON [$(date '+%H:%M')]" || echo "Nessuna modifica"
+          git push
+
+      # ── Deploy automatico su InfinityFree via FTP ──
+      - name: Deploy su InfinityFree (FTP)
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USER }}
+          password: ${{ secrets.FTP_PASS }}
+          port: 21
+          protocol: ftp
+          # Cartella locale da caricare (root del repo)
+          local-dir: ./
+          # Cartella remota su InfinityFree (di solito htdocs o public_html)
+          server-dir: ${{ secrets.FTP_REMOTE_DIR }}
+          # Carica solo questi file (evita di ricaricare tutto ogni volta)
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/__pycache__/**
+            **/*.py
+            **/requirements.txt
+            **/check_sport.py
+            **/debug_rsc.py
+            **/analyze_*.py
+            **/clean_json.py
+            **/compare_*.py
+            **/extract_*.py
+            **/find_*.py
+            **/inspect_*.py
+            **/parse_*.py
+            **/search_*.py
+            **/test_*.py
+            **/verify_*.py
