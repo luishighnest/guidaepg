@@ -9,6 +9,35 @@
   <link rel="stylesheet" href="css/style.css">
   <style>
     /* animations removed for performance */
+    
+    /* OVERRIDE CACHED STYLES PER EVITARE CHE IL RIQUADRO SI ALLARGHI */
+    .dashboard-layout .dash-info-area {
+      position: relative !important;
+      height: 100% !important; /* Forza l'altezza a non dipendere dal contenuto */
+      min-height: 0 !important;
+      display: block !important;
+    }
+    
+    .dashboard-layout .dash-info-card {
+      position: absolute !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: 0 !important;
+      bottom: 0 !important;
+      overflow-y: auto !important;
+      margin: 0 !important;
+      height: auto !important;
+      flex: none !important;
+    }
+    
+    /* Personalizzazione scrollbar */
+    .dashboard-layout .dash-info-card::-webkit-scrollbar {
+      width: 6px;
+    }
+    .dashboard-layout .dash-info-card::-webkit-scrollbar-thumb {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 3px;
+    }
   </style>
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
