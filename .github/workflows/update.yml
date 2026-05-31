@@ -2,7 +2,9 @@ name: Aggiorna JSON e Deploy su InfinityFree
 
 on:
   schedule:
-    - cron: '*/10 * * * *'   # ogni 10 minuti
+    - cron: '5 23 * * *'    # 01:05 ora italiana (23:05 UTC)
+    - cron: '0 12 * * *'    # 14:00 ora italiana (12:00 UTC)
+    - cron: '30 21 * * *'   # 23:30 ora italiana (21:30 UTC)
 
   workflow_dispatch:           # avvio manuale dal tab Actions
 
