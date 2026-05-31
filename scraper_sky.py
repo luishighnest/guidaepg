@@ -22,10 +22,22 @@ class SkyScraper:
         self.session.headers.update(self.headers)
         self.cache_lock = threading.Lock()
         self.desc_cache = {} 
-        self.clean_regex = re.compile(
-            r'\s+\d+\s+(min|ore).*|(?:\s*\|.*)|(?:\s+—.*)|(?:\s+Live\b\s*$)', 
+        # Pre-compiled patterns for title cleaning
+        self._pat_date_long  = re.compile(r'\s*\d{1,2}/\d{1,2}/\d{4}')
+        self._pat_date_short = re.compile(r'\s*\d{1,2}/\d{1,2}/\d{2}\b')
+        self._pat_ep_full    = re.compile(
+            r'^(.*?)\s*-\s*(?:Stag\.\s*-?\S+\s+)?Ep\.\s*\d+\s*-\s*(.+)$',
             re.IGNORECASE
         )
+        self._pat_stag_full  = re.compile(
+            r'^(.*?)\s*-\s*Stag\.\s*-?\S+\s*-\s*(.+)$',
+            re.IGNORECASE
+        )
+        self._pat_ep_trail   = re.compile(r'\s*-?\s*(?:Stag\.\s*-?\S+\s+)?Ep\.\s*\d+\s*$', re.IGNORECASE)
+        self._pat_stag_trail = re.compile(r'\s*-?\s*Stag\.\s*-?\S+\s*$', re.IGNORECASE)
+        self._pat_json_leak  = re.compile(r'"(?:prima|durata|genre|category|image|episode_number|series_number)"')
+        self._pat_live       = re.compile(r'\s+Live\s*$', re.IGNORECASE)
+        self._pat_duration   = re.compile(r'\s+\d+\s+(?:min|ore).*', re.IGNORECASE)
 
         self.target_map = {
             "Digitale Terrestre": [
@@ -117,7 +129,11 @@ class SkyScraper:
                 {"u": "discovery-channel", "n": "Discovery Channel"},
                 {"u": "national-geographic", "n": "National Geographic"},
                 {"u": "history-channel", "n": "History Channel"}
-            ],
+            "Bambini": [
+                {"u": "cartoon-network", "n": "Cartoon Network"},
+                {"u": "deakids", "n": "Dea Kids"},
+                {"u": "nick-junior", "n": "Nick Jr"},
+                {"u": "boomerang", "n": "Boomerang"}
             "News": [
                 {"u": "sky-tg24", "n": "Sky TG 24"},
                 {"u": "sky-meteo-24", "n": "Sky Meteo 24"},
@@ -125,18 +141,80 @@ class SkyScraper:
             ]
         }
 
+    def _remove_dates(self, s):
+        """Rimuove date nel formato dd/mm/yyyy o dd/mm/yy."""
+        s = self._pat_date_long.sub('', s)
+        s = self._pat_date_short.sub('', s)
+        return s.strip()
+
+    def _titles_overlap(self, a, b):
+        """Restituisce True se i due titoli si sovrappongono (uno contiene l'altro)."""
+        a_n = re.sub(r'\W+', '', a.lower())
+        b_n = re.sub(r'\W+', '', b.lower())
+        if not a_n or not b_n:
+            return False
+        return a_n in b_n or b_n in a_n
+
     def _clean_title(self, title):
-        """Rimuove durata, tag Live spuri e dettagli inutili dal titolo."""
+        """
+        Pulizia generalizzata del titolo. Regole applicate in ordine:
+        1. JSON leak  → tronca al primo campo JSON trapelato
+        2. "A - [Stag. Y] Ep. N - B"
+           a. Se A e B si sovrappongono (titolo ripetuto) → mantieni la parte più ricca
+           b. Altrimenti → "A - B" (elimina il marcatore episodio)
+        3. Ep. / Stag. in coda
+        4. Date dd/mm/yyyy o dd/mm/yy
+        5. Durata ("45 min", "2 ore...")
+        6. Tag " Live" finale
+        """
         if not title:
             return "N/A"
-        
-        cleaned = self.clean_regex.split(title)[0]
-        cleaned = cleaned.strip()
-        
-        if cleaned.lower().endswith(" live"):
-            cleaned = cleaned[:-5].strip()
-            
-        return cleaned if cleaned else "Programma"
+
+        # Regola 1: JSON leak
+        m_leak = self._pat_json_leak.search(title)
+        if m_leak:
+            chunk = title[:m_leak.start()].rstrip().rstrip('\\"\',').strip()
+            title = chunk if chunk else title
+
+        # Regola 2a: "A - [Stag. Y] Ep. N - B"
+        m = self._pat_ep_full.match(title)
+        if m:
+            prefix = self._remove_dates(m.group(1).strip())
+            suffix = self._remove_dates(m.group(2).strip())
+            if self._titles_overlap(prefix, suffix):
+                title = suffix if len(suffix) >= len(prefix) else prefix
+            else:
+                title = f"{prefix} - {suffix}" if prefix and suffix else (prefix or suffix)
+        else:
+            # Regola 2b: "A - Stag. N - B" (stagione senza episodio)
+            m2 = self._pat_stag_full.match(title)
+            if m2:
+                prefix = self._remove_dates(m2.group(1).strip())
+                suffix = self._remove_dates(m2.group(2).strip())
+                if self._titles_overlap(prefix, suffix):
+                    title = suffix if len(suffix) >= len(prefix) else prefix
+                else:
+                    title = f"{prefix} - {suffix}" if prefix and suffix else (prefix or suffix)
+                title = title.strip()
+            else:
+                # Regola 3: Ep. / Stag. in coda
+                title = self._pat_ep_trail.sub('', title).strip()
+                title = self._pat_stag_trail.sub('', title).strip()
+
+        # Regola 4: date
+        title = self._remove_dates(title)
+
+        # Regola 5: durata
+        title = self._pat_duration.sub('', title).strip()
+
+        # Regola 6: Live finale
+        title = self._pat_live.sub('', title).strip()
+
+        # Pulizia finale
+        title = re.sub(r'\s{2,}', ' ', title)
+        title = re.sub(r'\s*-\s*$', '', title).strip()
+
+        return title if title else "Programma"
 
     def _clean_description(self, desc):
         """Rimuove i puntini di sospensione ('...' o '\u2026') ad inizio descrizione
@@ -284,92 +362,158 @@ class SkyScraper:
                             s
                         )
                         # Sostituisce le sequenze di escape comuni
-                        s = s.replace('\\n', ' ').replace('\\t', ' ').replace('\\r', '').replace('\\\\', '\\')
-                        return s
-                            
-                    title = clean_escapes(title_raw)
-                    desc = clean_escapes(desc_raw)
-                    inizio = clean_escapes(inizio_raw)
-                    fine = clean_escapes(fine_raw)
-                    
-                    try:
-                        inizio_dt = datetime.fromisoformat(inizio.replace('Z', '+00:00'))
-                        fine_dt = datetime.fromisoformat(fine.replace('Z', '+00:00'))
-                    except Exception:
-                        continue
-                        
-                    raw_programs.append({
-                        "inizio_dt": inizio_dt,
-                        "fine_dt": fine_dt,
-                        "title": title,
-                        "desc": desc
-                    })
-                
-                if raw_programs:
+                rome_tz = ZoneInfo("Europe/Rome")
+                now_utc = datetime.now(timezone.utc)
+                today_rome = now_utc.astimezone(rome_tz).date()
 
-                    now_utc = datetime.now(timezone.utc)
-                    current_index = -1
-                    for i, p in enumerate(raw_programs):
-                        if p['inizio_dt'] <= now_utc < p['fine_dt']:
-                            current_index = i
-                            break
-                    
-                    if current_index == -1:
-                        for i, p in enumerate(raw_programs):
-                            if p['inizio_dt'] >= now_utc:
-                                current_index = i
-                                break
-                    
-                    if current_index == -1:
-                        current_index = 0
-                        
-                    selected_programs = raw_programs[current_index:]
-                    
-                    extracted = []
-                    for p in selected_programs:
-                        local_start = p['inizio_dt'].astimezone(rome_tz).strftime("%H:%M")
-                        extracted.append({
-                            "ora": local_start,
-                            "titolo": self._clean_title(p['title']),
-                            "descrizione": self._clean_description(p['desc'].strip())
-                        })
-                        
-                    if extracted:
-                        return extracted
+                # Estrai tutti i chunk RSC grezzi
+                chunks = []
+                for m in re.finditer(
+                    r'self\.__next_f\.push\(\[\d+,\s*"(.*?)"\]\)',
+                    all_text, re.DOTALL
+                ):
+                    chunks.append(m.group(1))
+
+                # Trova il chunk che contiene i programmi del canale ("prog" + "inizio")
+                prog_chunk = None
+                for raw_val in chunks:
+                    if 'prog' in raw_val and 'inizio' in raw_val:
+                        prog_chunk = raw_val
+                        break
+
+                if prog_chunk is not None:
+                    # Decodifica l'escape del chunk (è una stringa JSON-encoded)
+                    try:
+                        decoded = json.loads('"' + prog_chunk + '"')
+                    except Exception:
+                        decoded = prog_chunk.replace('\\\\"', '"').replace('\\\\\\\\', '\\')
+
+                    # Cerca il blocco "prog":[...] con bilanciamento parentesi
+                    idx = decoded.find('"prog":[')
+                    if idx >= 0:
+                        start = decoded.index('[', idx)
+                        depth = 0
+                        end = start
+                        for i, c in enumerate(decoded[start:], start):
+                            if c == '[':
+                                depth += 1
+                            elif c == ']':
+                                depth -= 1
+                                if depth == 0:
+                                    end = i + 1
+                                    break
+                        prog_json_str = decoded[start:end]
+                    else:
+                        prog_json_str = None
+
+                    if prog_json_str:
+                        try:
+                            prog_list = json.loads(prog_json_str)
+                        except Exception:
+                            prog_list = []
+
+                        raw_programs = []
+                        for p in prog_list:
+                            try:
+                                inizio_dt = datetime.fromisoformat(
+                                    p['inizio'].replace('Z', '+00:00')
+                                )
+                                fine_dt = datetime.fromisoformat(
+                                    p['fine'].replace('Z', '+00:00')
+                                )
+                            except Exception:
+                                continue
+
+                            raw_programs.append({
+                                "inizio_dt": inizio_dt,
+                                "fine_dt": fine_dt,
+                                "title": p.get('title', ''),
+                                "desc": p.get('description', '')
+                            })
+
+                        if raw_programs:
+                            # Filtra solo i programmi di oggi (fuso orario Roma)
+                            today_programs = [
+                                p for p in raw_programs
+                                if p['inizio_dt'].astimezone(rome_tz).date() == today_rome
+                            ]
+                            if not today_programs:
+                                today_programs = raw_programs
+
+                            # Trova il programma corrente o il prossimo
+                            current_index = -1
+                            for i, p in enumerate(today_programs):
+                                if p['inizio_dt'] <= now_utc < p['fine_dt']:
+                                    current_index = i
+                                    break
+                            if current_index == -1:
+                                for i, p in enumerate(today_programs):
+                                    if p['inizio_dt'] >= now_utc:
+                                        current_index = i
+                                        break
+                            if current_index == -1:
+                                current_index = 0
+
+                            selected = today_programs[current_index:]
+                            extracted = []
+                            for p in selected:
+                                local_start = p['inizio_dt'].astimezone(rome_tz).strftime("%H:%M")
+                                extracted.append({
+                                    "ora": local_start,
+                                    "titolo": self._clean_title(p['title']),
+                                    "descrizione": self._clean_description(p['desc'].strip())
+                                })
+                            if extracted:
+                                return extracted
+
         except Exception as e:
             logger.debug(f"Errore nel parsing del flusso Next.js RSC: {e}")
 
+        # Fallback: __NEXT_DATA__
         script = soup.find('script', id='__NEXT_DATA__')
         if script:
             try:
+                from datetime import timezone
+                from zoneinfo import ZoneInfo
+                rome_tz = ZoneInfo("Europe/Rome")
+                now_utc = datetime.now(timezone.utc)
+                today_rome = now_utc.astimezone(rome_tz).date()
+
                 data = json.loads(script.string)
                 props = data.get('props', {}).get('pageProps', {})
-                programs_list = (props.get('initialData', {}).get('channel', {}).get('programs', []) or 
+                programs_list = (props.get('initialData', {}).get('channel', {}).get('programs', []) or
                                  props.get('programs', []) or [])
-                
+
                 extracted = []
                 for p in programs_list:
-                    ora = p.get('startTime') or p.get('ora') or ""
-                    if 'T' in str(ora):
-                        ora = ora.split('T')[1][:5]
+                    ora_raw = p.get('startTime') or p.get('ora') or ""
+                    # Filtra per data odierna se l'orario contiene la data ISO
+                    if 'T' in str(ora_raw):
+                        try:
+                            start_dt = datetime.fromisoformat(str(ora_raw).replace('Z', '+00:00'))
+                            if start_dt.astimezone(rome_tz).date() != today_rome:
+                                continue  # salta programmi di altri giorni
+                            ora = start_dt.astimezone(rome_tz).strftime("%H:%M")
+                        except Exception:
+                            ora = str(ora_raw).split('T')[1][:5]
                     else:
-                        ora = str(ora)[:5]
-                    
+                        ora = str(ora_raw)[:5]
+
                     titolo_raw = p.get('title') or p.get('titolo') or "N/A"
                     desc_raw = (p.get('description') or p.get('descrizione') or p.get('desc') or "").strip()
-                    
+
                     detail_url = p.get('link') or p.get('url') or p.get('href')
                     if not detail_url and p.get('slug'):
                         detail_url = f"/programma/{p.get('slug')}"
-                    
+
                     if (not desc_raw or desc_raw.endswith('...') or desc_raw.endswith('…')) and detail_url:
                         full_desc = self._get_full_description(detail_url)
                         if full_desc:
                             desc_raw = full_desc
-                    
+
                     if ora and titolo_raw:
                         extracted.append({
-                            "ora": ora, 
+                            "ora": ora,
                             "titolo": self._clean_title(titolo_raw),
                             "descrizione": self._clean_description(desc_raw)
                         })
