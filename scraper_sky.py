@@ -129,11 +129,13 @@ class SkyScraper:
                 {"u": "discovery-channel", "n": "Discovery Channel"},
                 {"u": "national-geographic", "n": "National Geographic"},
                 {"u": "history-channel", "n": "History Channel"}
+            ],
             "Bambini": [
                 {"u": "cartoon-network", "n": "Cartoon Network"},
                 {"u": "deakids", "n": "Dea Kids"},
                 {"u": "nick-junior", "n": "Nick Jr"},
                 {"u": "boomerang", "n": "Boomerang"}
+            ],
             "News": [
                 {"u": "sky-tg24", "n": "Sky TG 24"},
                 {"u": "sky-meteo-24", "n": "Sky Meteo 24"},
