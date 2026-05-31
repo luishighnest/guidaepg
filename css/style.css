@@ -1037,6 +1037,8 @@ a {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  min-height: 0;
+  max-height: 100%;
 }
 
 .dash-info-card {
@@ -1047,6 +1049,16 @@ a {
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
   padding: 1.5rem;
   flex: 1;
+  overflow-y: auto;
+}
+
+.dash-info-card::-webkit-scrollbar {
+  width: 6px;
+}
+
+.dash-info-card::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
 }
 
 .dash-info-title {
