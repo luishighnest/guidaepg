@@ -4,11 +4,6 @@
         "categoria": "Digitale Terrestre",
         "programmi": [
             {
-                "ora": "00:55",
-                "titolo": "Che Tempo Fa",
-                "descrizione": "L'appuntamento con le previsioni del tempo gestito dall'Aeronautica militare."
-            },
-            {
                 "ora": "01:00",
                 "titolo": "Sottovoce E Dintorni",
                 "descrizione": "Gigi Marzullo ripercorre l'itinerario umano, artistico e professionale di personaggi dello sport, dello spettacolo o della cultura."
@@ -34,34 +29,19 @@
                 "descrizione": "I lavori del Parlamento Europeo, tra Strasburgo e Bruxelles. L'impegno dei parlamentari italiani. L'influenza dell'Unione Europea sulla vita degli Stati membri e dei cittadini."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Rai 2",
         "categoria": "Digitale Terrestre",
         "programmi": [
             {
-                "ora": "00:15",
-                "titolo": "Il commissario Lanz",
-                "descrizione": "La prima ispettore capo della polizia Vera Lanz, una detective della polizia di Monaco, tenta di bilanciare la sua vita professionale e privata."
-            },
-            {
-                "ora": "01:19",
-                "titolo": "Meteo 2",
-                "descrizione": "Meteo 2"
-            },
-            {
-                "ora": "01:20",
-                "titolo": "Appuntamento Al Cinema",
-                "descrizione": "APPUNTAMENTO CINEMA."
-            },
-            {
                 "ora": "01:25",
                 "titolo": "RaiNew",
                 "descrizione": "RaiNews24"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Rai 3",
@@ -103,17 +83,12 @@
                 "descrizione": "In collaborazione con il Lab 80 e con Enece Film, Fuori Orario dedica un omaggio a Luca Ferri, articolato in tre notti su RAI 3, il 30 e 31 maggio e il 7 giugno. Nato a Bergamo nel 1976, Luca Ferri si occupa di immagini e parole. Di Ghezzi Baglivi Esposito Fina Francia Luciani Turigliatto presenta ECCE UBU ALLA RICERCA DI LUCA FERRI (2) di Roberto Turigliatto"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Rai 4",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:54",
-                "titolo": "Anica Appuntamento Al Cinema",
-                "descrizione": "Rubrica per la promozione della cultura cinematografica in Italia."
-            },
             {
                 "ora": "00:57",
                 "titolo": "Bull (Film)",
@@ -140,22 +115,12 @@
                 "descrizione": "La serie segue le avventure di un'Unità Persone Scomparse dell'FBI a New York City."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Rai 5",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:31",
-                "titolo": "Italiani. Alberto Sordi",
-                "descrizione": "$24"
-            },
-            {
-                "ora": "01:25",
-                "titolo": "Rai News Notte",
-                "descrizione": "NOTIZIARIO - Cronaca, politica, economia, cultura, spettacolo e sport dall'Italia e dal mondo. I fatti del giorno in tre minuti a cura di Rai News, il canale all news della Rai.. - 2026 ITA"
-            },
             {
                 "ora": "01:27",
                 "titolo": "Il Mondo Con Gli Occhi Di Overland - Nepal: Templi, Terremoti E Rinascita",
@@ -182,7 +147,7 @@
                 "descrizione": "Il Pantanal, la più grande zona umida del Brasile è un santuario per giaguari, rettili, tapiri e molte specie di uccelli. Salvare questo ecosistema unico nel suo genere e le sue specie, minacciato dai continui incendi boschivi e dallo sviluppo intensivo di agricoltura e allevamento, sta diventando una questione urgente."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Rete 4",
@@ -219,17 +184,12 @@
                 "descrizione": "Il nuovo programma di Rete4 dedicato a politica, economia e i principali casi di cronaca ed attualita'."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Canale 5",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:20",
-                "titolo": "Tg5",
-                "descrizione": "Le notizie piu' importanti, nazionali e internazionali, con approfondimenti e rubriche, a cura della redazione giornalistica di Canale 5."
-            },
             {
                 "ora": "01:04",
                 "titolo": "Io e mio fratello",
@@ -251,17 +211,12 @@
                 "descrizione": "La serie racconta le avventure del reparto investigazioni scientifiche di Parma, uno dei quattro reparti dell'Arma dei Carabinieri incaricati di svolgere indagini tecniche e scientifiche sul territorio italiano. È stata trasmessa in prima visione in Italia da Canale 5 dal 12 gennaio 2005."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Italia 1",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "01:47",
-                "titolo": "Studio Aperto - La giornata",
-                "descrizione": "I principali fatti e notizie della giornata a cura della redazione giornalistica di Studio Aperto."
-            },
             {
                 "ora": "02:00",
                 "titolo": "Sport Mediaset - La giornata",
@@ -308,22 +263,12 @@
                 "descrizione": "Le gesta di due poliziotti sotto copertura, James 'Sonny' Crockett e Ricardo 'Rico' Tubbs, che lottano contro la criminalità in un'atmosfera ricca di glamour e fascino tipiche degli anni '80."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "La7",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:10",
-                "titolo": "TG LA7 Notte",
-                "descrizione": "Informazione a cura della redazione del TG LA7."
-            },
-            {
-                "ora": "01:10",
-                "titolo": "LA7 DOC - I Segreti dei Dittatori",
-                "descrizione": "In un viaggio avvolto dalle ombre della storia Europea, \"I nascondigli segreti dei Dittatori\" dischiude le porte a monumentali bunker, enigmatici palazzi e tenute fortificate, costruiti dalle figure più tiranniche del vecchio..."
-            },
             {
                 "ora": "01:40",
                 "titolo": "In Onda",
@@ -335,17 +280,12 @@
                 "descrizione": "Programma di informazione e approfondimento con rubriche, ospiti, rassegna stampa, aggiornamenti sul traffico, previsioni meteo, dibattito sul tema del giorno. 24a Edizione."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "TV8",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:05",
-                "titolo": "Che Fine Hanno Fatto I Morgan?",
-                "descrizione": "Meryl e Paul Morgan sono separati. La loro vita perfetta, spesa nel cuore di Manhattan, ha avuto una battuta di arresto. Paul, avvocato di successo, ha tradito Meryl a Chicago con una collega avvenente e adesso vorrebbe cancellare l'accaduto, farsi perdonare e rientrare nel letto e nelle grazie della consorte. Meryl, ferita e ostinata a resistere alla strategia di riconquista, declina suo malgrado inviti, doni, dichiarazioni e (buone) intenzioni. Sarà il destino a decidere il loro futuro, cacciandoli in una situazione decisamente pericolosa. Testimoni di un omicidio vengono presi in consegna dall'FBI, inseriti nel programma protezione testimoni e precipitati a Ray nel Wyoming, lontano dai comfort di New York e sotto la tutela di una coppia di ruvidi federali. La convivenza forzata e la natura selvaggia li costringeranno a ripensare al loro matrimonio e a rimontare in sella."
-            },
             {
                 "ora": "02:00",
                 "titolo": "Lady Killer",
@@ -372,17 +312,12 @@
                 "descrizione": "Ep5 Theresa Ramirez - Sono delicate, sono fragili. Sono generose, sono vanitose. Sono innamorate, vengono ferite, diventano vendicative e anche assassine. Chi sono queste donne spietate? E perche' uccidono?"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Nove",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:00",
-                "titolo": "Fratelli di Crozza",
-                "descrizione": "Una satira unica: Maurizio Crozza torna sul Nove con il suo show."
-            },
             {
                 "ora": "01:40",
                 "titolo": "Nudi e crudi",
@@ -409,7 +344,7 @@
                 "descrizione": "Una donna a cui hanno diagnosticato un tumore inizia una relazione con un uomo, anche lui malato. Ma qualcosa non torna in tutta questa storia..."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "20 Mediaset",
@@ -446,17 +381,12 @@
                 "descrizione": "Dopo essere tornata nella sua città natale di Roswell (Nuovo Messico), la figlia di due persone immigrate e senza documenti scopre che la sua cotta adolescenziale è un alieno che ha tenuto nascoste le sue capacità soprannaturali per tutta la sua vita. Protegge il suo segreto mentre i due si riconnettono, ma quando un attacco violento indica una presenza aliena più grande sulla Terra, la politica della paura e dell'odio minaccia di esporsi."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Twentyseven",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "01:05",
-                "titolo": "Hazzard",
-                "descrizione": "Georgia, Stati Uniti. Nell'immaginaria contea di Hazzard si susseguono le rocambolesche avventure della famiglia Duke, composta dai giovani cugini Bo, Luke e Daisy e da Jesse, un loro saggio e anziano zio. Nonostante i sani principi di lealtà e correttezza, che i Duke hanno sempre messo davanti ad ogni cosa, anche loro, come nella migliore tradizione di molte famiglie del profondo sud, non hanno mai rinunciato alla distillazione clandestina di whisky. Questa debolezza, in passato, è stata la causa, per loro, di problemi con la giustizia ed è per questo motivo che, Bo e Luke, si trovano ora in libertà condizionata."
-            },
             {
                 "ora": "01:54",
                 "titolo": "Walker Texas Ranger",
@@ -493,7 +423,7 @@
                 "descrizione": "Camera Café è una sitcom italiana prodotta dal 2003 al 2012 e trasmessa in prima visione da Italia 1. La sitcom è basata sull'omonimo format originale francese Caméra Café. Il titolo della serie deriva da una paronomasia in lingua francese data dall'accostamento e fusione dei termini café (\"caffè\") e caméra cachée (\"telecamera nascosta\")."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "IRIS",
@@ -520,17 +450,12 @@
                 "descrizione": "Dopo la battaglia di Waterloo, il marchese Fabrizio del Dongo trascorre 5 anni a Napoli, in seminario. Dopo si reca a Parma ospite della zia, la duchessa di San Severino. Nel frattempo, Fabrizio viene arrestato per un duello, imprigionato, per poi venir condannato a venti anni di carcere. Riceve spesso visite in cella da parte della bellissima Clelia Conti, figlia del governatore della prigione. Aiutata anche dalla devota San Severino, Clelia riesce a far evadere Fabrizio. Per impedire la loro unione, il padre costringe allora la figlia a sposare un ricco nobiluomo. Fabrizio, rifugiatosi in Piemonte, viene a conoscenza di ciò che era successo in sua assenza a Parma, vi fa ritorno e viene nuovamente arrestato. La zia, per salvarlo, si concede al principe Ernesto, che di lì a poco viene assassinato. Fabrizio, che era già stato liberato, si ritira nella Certosa di Parma mentre Clelia rimane col ricco marito."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Rai Movie",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:15",
-                "titolo": "Charlie's Angels (2019)",
-                "descrizione": "Le Charlie's Angels hanno sempre messo a disposizione le loro abilità di investigazione e di security e ora l'agenzia Townsend si sta espandendo a livello internazionale con le donne più intelligenti, coraggiose e addestrate di tutto il pianeta: varie squadre di \"Angeli\", guidate ciascuna da un Bosley, si fanno carico dei più difficili lavori in tutto il mondo. Quando un giovane ingegnere vuota il sacco su una pericolosa tecnologia, gli \"Angeli\" entrano in azione mettendo a rischio le loro vite per la salvezza di tutti."
-            },
             {
                 "ora": "02:10",
                 "titolo": "Hotel Artemis",
@@ -547,7 +472,7 @@
                 "descrizione": "Durante le campagne napoleoniche in Francia, un cavaliere di ventura si dedica ad avventure amatorie che mandano in bestia tutti i mariti di Parigi. Si ripete in Austria e in Russia. Film scacciapensieri inerte."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Rai Premium",
@@ -579,17 +504,12 @@
                 "descrizione": "Debutta nel 1998 su Rai2 \"Incantesimo\", soap di grandissimo successo della tv pubblica: nelle prime due stagioni la protagonista è Barbara Nardi, medico della clinica \"Life\" di Roma, divisa tra il matrimonio con l'avvocato Roberto Ansaldi e l'amore per Thomas Berger. Nella terza stagione Alessio Boni è il dottor Marco Oberon."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "La 5",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:57",
-                "titolo": "X- Style",
-                "descrizione": "Il rotocalco dedicato alla moda, bellezza, lifestyle e tendenze."
-            },
             {
                 "ora": "01:37",
                 "titolo": "Rosamunde Pilcher: La stoffa di cui sono fatti i sogni",
@@ -621,17 +541,12 @@
                 "descrizione": "Tempesta d'amore (Sturm der Liebe) è una soap opera tedesca trasmessa dal 26 settembre 2005 sull'emittente nazionale Das Erste e creata da Bea Schimdt."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Real Time",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:50",
-                "titolo": "Dr. Pimple Popper - I nuovi casi",
-                "descrizione": "Bryan ha una condizione genetica che causa delle grosse pustole sulla sua testa."
-            },
             {
                 "ora": "01:45",
                 "titolo": "Dr. Pimple Popper: la dottoressa schiacciabrufoli",
@@ -658,22 +573,12 @@
                 "descrizione": "La rinofima di Roger e' talmente estrema che ha difficolta' persino a respirare. Natalie ha dei piccoli bozzoli su tutto il corpo."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Food Network",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:45",
-                "titolo": "Le ricette del convento",
-                "descrizione": "Don Salvatore e Don Anselmo ci portano a fare un giro nell'entroterra siciliano con le conchiglie fagioli e salsiccia, e i biscotti ricci."
-            },
-            {
-                "ora": "01:20",
-                "titolo": "Le ricette del convento",
-                "descrizione": "Pesto di primavera e un dolce antico dalla dispensa del convento."
-            },
             {
                 "ora": "01:55",
                 "titolo": "Spie al ristorante",
@@ -725,17 +630,12 @@
                 "descrizione": "Dopo le lamentele da parte dello staff, il gestore del D'Cache vuole scoprire se il maitre, promosso da poco, sta intascando piu' di quanto previsto."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Focus",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:26",
-                "titolo": "Battaglie animali",
-                "descrizione": "Dai fiumi selvaggi alle profondita' dell'oceano, in natura si combatte! Scontri sulla barriera corallina e duelli nell'oceano."
-            },
             {
                 "ora": "01:24",
                 "titolo": "Big Cat Country",
@@ -772,7 +672,7 @@
                 "descrizione": "Lo sapevi che?"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Giallo",
@@ -804,47 +704,12 @@
                 "descrizione": "Kathy e' ospite per una notte a casa di un suo amico a Raleigh. Ma la ragazza si trova nel posto sbagliato al momento sbagliato e va in coma dopo una brutale aggressione."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Boing",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:50",
-                "titolo": "Lo straordinario mondo di Gumball",
-                "descrizione": "Papa' non sa dire di no a nessuno e tutti si piazzano in casa di Gumball a fare i loro comodi. I ragazzi tentano inutilmente di cacciarli quando all'improvviso arriva la mamma."
-            },
-            {
-                "ora": "01:05",
-                "titolo": "Lo straordinario mondo di Gumball",
-                "descrizione": "Gumball e Darwin decidono di girare un video in cui ritrarre tutto il loro mondo mettendo in scena una girandola di situazioni e personaggi divertenti col finale a sorpresa."
-            },
-            {
-                "ora": "01:15",
-                "titolo": "Lo straordinario mondo di Gumball",
-                "descrizione": "Gumball e Darwin vengono sfidati da due tipi tosti. All'inizio i due fratelli nicchieranno ma alla fine accetteranno lo scontro a tennis."
-            },
-            {
-                "ora": "01:25",
-                "titolo": "Lo straordinario mondo di Gumball",
-                "descrizione": "Gumball si ritrova suo malgrado preso in giro sulla rete cosi' si mette alla ricerca dell'abitazione di Internet per convincerlo a cancellare i video. Fatica sprecata."
-            },
-            {
-                "ora": "01:35",
-                "titolo": "Lo straordinario mondo di Gumball",
-                "descrizione": "I ragazzi trovano nella spazzatura la lettera di un misterioso spasimante della madre per cui mettono in moto un piano perfetto per allontanare l'intruso ma inutilmente."
-            },
-            {
-                "ora": "01:45",
-                "titolo": "Lo straordinario mondo di Gumball",
-                "descrizione": "Sarabanda di oggetti loquaci e canterini che vivono una vita sconosciuta ai protagonisti ma non meno interessante. Insomma un episodio dal punto di vista delle cose."
-            },
-            {
-                "ora": "01:55",
-                "titolo": "Lo straordinario mondo di Gumball",
-                "descrizione": "Un giorno in casa Watterson arriva la resa dei conti ovvero le conseguenze di tutte le follie commesse dalla famiglia. E il tempo concesso non basta per rimediare: e' la fine!"
-            },
             {
                 "ora": "02:05",
                 "titolo": "Lo straordinario mondo di Gumball",
@@ -869,34 +734,49 @@
                 "ora": "02:50",
                 "titolo": "Lo straordinario mondo di Gumball",
                 "descrizione": "Gumball, un gatto di 12 anni, e il suo amico Darwin, un pesce rosso, vivono avventure al limite della follia, in questa stravagante commedia animata."
+            },
+            {
+                "ora": "03:00",
+                "titolo": "Lo straordinario mondo di Gumball",
+                "descrizione": "Gumball, un gatto di 12 anni, e il suo amico Darwin, un pesce rosso, vivono avventure al limite della follia, in questa stravagante commedia animata."
+            },
+            {
+                "ora": "03:10",
+                "titolo": "Lo straordinario mondo di Gumball",
+                "descrizione": "Gumball scopre che il suo vero nome e' Zac e inizia a comportarsi da bulletto rischiando di perdere la sua vecchia identita'."
+            },
+            {
+                "ora": "03:20",
+                "titolo": "Lo straordinario mondo di Gumball",
+                "descrizione": "Scendono in campo i personaggi secondari e ci mostrano le loro avventure."
+            },
+            {
+                "ora": "03:30",
+                "titolo": "Lo straordinario mondo di Gumball",
+                "descrizione": "Gumball si lamenta di tutto e passa per povero agli occhi della gente che si commuove a tal punto da scatenare una gara di solidarieta'. Ben presto il gioco sfugge di mano a tutti."
+            },
+            {
+                "ora": "03:45",
+                "titolo": "Lo straordinario mondo di Gumball",
+                "descrizione": "Durante il viaggio per le vacanze i ragazzi si raccontano storie del terrore. E sfidata dai figli la mamma si esibisce in un racconto pauroso che all'improvviso pero' diventa realta'."
+            },
+            {
+                "ora": "03:55",
+                "titolo": "Lo straordinario mondo di Gumball",
+                "descrizione": "Gumball, un gatto di 12 anni, e il suo amico Darwin, un pesce rosso, vivono avventure al limite della follia, in questa stravagante commedia animata."
+            },
+            {
+                "ora": "04:05",
+                "titolo": "Lo straordinario mondo di Gumball",
+                "descrizione": "Gumball, un gatto di 12 anni, e il suo amico Darwin, un pesce rosso, vivono avventure al limite della follia, in questa stravagante commedia animata."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "K2",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:40",
-                "titolo": "Il mio gatto è in cima all'albero!",
-                "descrizione": "1' Stagione Ep.2 - Gatto intrappolato - Shaun e Tom indagano per scoprire se il presunto proprietario di un gatto intrappolato dice la verità. Inoltre, Tom tenta di ricongiungere un felino con il suo fedele amico a quattro zampe."
-            },
-            {
-                "ora": "01:00",
-                "titolo": "I Dalton",
-                "descrizione": "1' Stagione Ep.5 - Le divertenti vicende di una gang di antieroi costituita dai fratelli Joe, William, Jack e Averell Dalton, noti avversari del leggendario Lucky Luke."
-            },
-            {
-                "ora": "01:20",
-                "titolo": "I Dalton",
-                "descrizione": "1' Stagione Ep.6 - Le divertenti vicende di una gang di antieroi costituita dai fratelli Joe, William, Jack e Averell Dalton, noti avversari del leggendario Lucky Luke."
-            },
-            {
-                "ora": "01:40",
-                "titolo": "Zig & Sharko",
-                "descrizione": "2' Stagione Ep.1 - La simpatica iena Zig, costantemente affamata, elabora i più bizzarri piani per mangiare la sirena Marina, protetta dallo squalo Shark."
-            },
             {
                 "ora": "02:00",
                 "titolo": "Zig & Sharko",
@@ -936,44 +816,29 @@
                 "ora": "04:30",
                 "titolo": "Zig & Sharko",
                 "descrizione": "2' Stagione Ep.7 - La simpatica iena Zig, costantemente affamata, elabora i più bizzarri piani per mangiare la sirena Marina, protetta dallo squalo Shark."
+            },
+            {
+                "ora": "04:55",
+                "titolo": "Zig & Sharko",
+                "descrizione": "2' Stagione Ep.8 - La simpatica iena Zig, costantemente affamata, elabora i più bizzarri piani per mangiare la sirena Marina, protetta dallo squalo Shark."
+            },
+            {
+                "ora": "05:15",
+                "titolo": "I Dalton",
+                "descrizione": "1' Stagione Ep.9 - Le divertenti vicende di una gang di antieroi costituita dai fratelli Joe, William, Jack e Averell Dalton, noti avversari del leggendario Lucky Luke."
+            },
+            {
+                "ora": "05:35",
+                "titolo": "I Dalton",
+                "descrizione": "1' Stagione Ep.10 - Le divertenti vicende di una gang di antieroi costituita dai fratelli Joe, William, Jack e Averell Dalton, noti avversari del leggendario Lucky Luke."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Rai Gulp",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:35",
-                "titolo": "Spike Team",
-                "descrizione": "Armand, di nascosto da tutti salvo che dal fido guardiano di palestra Luther, fa ingaggiare l'ex campione Lucky come allenatore della squadra del college. Ma il team è tutto da creare e la strada appare in salita. Madame A, intanto, si compra la migliore squadra sul mercato, le Rose Nere, e ingaggia Coach Match, uno spregiudicato allenatore pronto a tutto."
-            },
-            {
-                "ora": "01:15",
-                "titolo": "Gormiti",
-                "descrizione": "Inizia l'avventura di quattro giovani ragazzi, alla ricerca della leggendaria Torre, dove risiede il grande potere dei Gormiti. Ognuno dei ragazzi proviene da un diverso Regno: Riff, dal Regno del Fuoco, Trek, dal Regno della Roccia, Eron, dal Regno del Vento e Ikor, dal Regno del Ghiaccio. Incredibilmente, troveranno davvero la Torre, al cui interno conosceranno Ao-Ki, la Guardiana della Conoscenza e del Sigillo della Luce. Qualcun altro sta cercando di mettere le mani su quel grande potere, vale a dire Voidus, del mondo di Darkon, che invierà il suo braccio destro Gredd alla ricerca della medesima Torre, per recuperare il Sigillo. Inizierà la prima battaglia tra i Darkans e gli Araldi, cioè i quattro giovani amici."
-            },
-            {
-                "ora": "01:30",
-                "titolo": "Gormiti",
-                "descrizione": "Riff scalpita perché piuttosto che perdere tempo con le sessioni di allenamento preferirebbe andare a combattere contro i Darkan(s) e a cercare l'Elestar. Xathor è deciso a distruggere la Torre e mentre Riff si allena di nascosto con Vulkan finisce in una trappola."
-            },
-            {
-                "ora": "01:40",
-                "titolo": "La famiglia Skrokkiazeppi",
-                "descrizione": "La famiglia si reca in un supermercato a fare la spesa seguendo le abitudini degli umani, ma i genitori faticano a rinunciare al loro istinto di cacciatori abituati a procacciarsi il cibo. E alla fine escogitano un trucco, si nascondono a vicenda il cibo dentro casa e \"vanno a caccia\"."
-            },
-            {
-                "ora": "01:50",
-                "titolo": "La famiglia Skrokkiazeppi",
-                "descrizione": "Nel condominio c'è un bimbo che la notte tiene tutti svegli piangendo perché sta mettendo i denti. Ortika si propone come babysitter per far riposare i genitori. Cikuta gli prepara una pozione per far crescere i denti. Kruncio ha finalmente un fratellino e scappa per la città con lui. Nonna e nipote devono trovarli."
-            },
-            {
-                "ora": "02:05",
-                "titolo": "Il mondo di Karma",
-                "descrizione": "Le grandi aspettative di Karma per il primo giorno di scuola media restano deluse quando i compagni la prendono in giro per il suo nome. Inizia a mettere in dubbio la propria identità, ma con il sostegno di suo padre e degli amici vecchi e nuovi, prende fiducia in sé e alla fine esclama: IO SONO KARMA!"
-            },
             {
                 "ora": "02:10",
                 "titolo": "Il mondo di Karma",
@@ -1003,34 +868,44 @@
                 "ora": "03:30",
                 "titolo": "I Puffi - La nuova serie",
                 "descrizione": "I Puffi sono esasperati! Nessuno vuole cambiare il pannolino del piccolo Baby Puffo."
+            },
+            {
+                "ora": "03:40",
+                "titolo": "I Puffi - La nuova serie",
+                "descrizione": "Puffetta è convinta che sia necessario imparare a difendersi da soli. Il motto dei Puffi però è \"Puffi per uno, uno per Puffi\"."
+            },
+            {
+                "ora": "03:55",
+                "titolo": "Le tre moschettiere",
+                "descrizione": "Charlotte è una ragazzina che coltiva il sogno di diventare moschettiera, sebbene la scuola apposita sia riservata solo ai maschi. Conoscerà Alexandre Dumas, un giovane spigliato che ama scrivere storie, il quale si legherà a lei e cercherà di aiutarla a conquistare il suo sogno di sempre. Ma gli ostacoli non tarderanno ad arrivare..."
+            },
+            {
+                "ora": "04:05",
+                "titolo": "Le tre moschettiere",
+                "descrizione": "Charlotte riesce ad esaudire il sogno di entrare a far parte del gruppo delle moschettiere. La giovane, intraprendente e coraggiosa, dimostrerà di essere all'altezza del ruolo, e tutte insieme le moschettiere difenderanno il mondo dalle ingiustizie."
+            },
+            {
+                "ora": "04:15",
+                "titolo": "Winx Club",
+                "descrizione": "Durante la notte delle stelle cadenti, le Winx fanno la conoscenza di Twinkly, una Lumen proveniente dallo spazio. Le Winx la salvano dall'attacco di misteriose creature chiamate Staryummy, che invadono Alfea, e la aiutano a recuperare la memoria. Twinkly ricorda la sua missione e si offre di condurre le Winx su Lumenia, per incontrare Dorana, regina di tutte le Stelle..."
+            },
+            {
+                "ora": "04:40",
+                "titolo": "OGM Travels",
+                "descrizione": "Due annoiati Buddy e Elvis osservano le grandi manovre di raccolta rifiuti umani che hanno infestato la baia, dopo la solita mareggiata, senza la minima intenzione di muovere un dito. Le cose cambiano quando vedono passare una creatura misteriosa, che si rivelerà essere una tartaruga, con attaccato al guscio un bizzarro oggetto di origine umana. Il ritrovamento non sfugge nemmeno ad Olivia: è il perfetto primo pezzo della collezione per si potrebbe inaugurare un museo di \"affascinanti reperti umani\". Ma prima sarebbe utile sapere a che serve..."
+            },
+            {
+                "ora": "04:45",
+                "titolo": "OGM Travels",
+                "descrizione": "Olivia, in piena agitazione. Per un tour serale sono in arrivo due Tamerpie, grandi appassionate di luci nel cielo. Vengono sulla Terra perché vogliono vedere una cosa chiamata \"Aurora Boreale\", e ha appena scoperto che è un fenomeno assente sulla Terra da decenni. Ora Olivia ha un grosso problema: impossibile annullare il viaggio delle Tamerpie... sarebbe un'onta per l'Agenzia! Fortuna che ad Elvis viene una delle sue pazzesche idee..."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Frisbee",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:15",
-                "titolo": "Il mio gatto è indemoniato",
-                "descrizione": "5' Stagione Ep.18 - Il mio gatto mi tiene in ostaggio! - A Portland, Jackson aiuta Lee e Teresa, che hanno chiamato il 911 per il loro gatto Lux. Il figlio Jesse è finito sulla coda del gatto che l'ha punito con dei graffi."
-            },
-            {
-                "ora": "01:05",
-                "titolo": "Floopaloo",
-                "descrizione": "2' Stagione Ep.3 - Lisa e Matias trascorrono l'estate in un luogo dai magici paesaggi. Tra in fiumi verticali, pietre baffute e alberi dei ricordi, troveranno delle creature leggendarie."
-            },
-            {
-                "ora": "01:25",
-                "titolo": "Floopaloo",
-                "descrizione": "2' Stagione Ep.4 - Lisa e Matias trascorrono l'estate in un luogo dai magici paesaggi. Tra in fiumi verticali, pietre baffute e alberi dei ricordi, troveranno delle creature leggendarie."
-            },
-            {
-                "ora": "01:45",
-                "titolo": "Oggy e i maledetti scarafaggi - Next Generation",
-                "descrizione": "7' Stagione Ep.23 - Oggy si prende cura di Piya, figlia dei suoi amici indiani."
-            },
             {
                 "ora": "02:05",
                 "titolo": "Oggy e i maledetti scarafaggi - Next Generation",
@@ -1070,9 +945,24 @@
                 "ora": "04:35",
                 "titolo": "Oggy e i maledetti scarafaggi - Next Generation",
                 "descrizione": "3' Stagione Ep.1 - Oggy si prende cura di Piya, figlia dei suoi amici indiani"
+            },
+            {
+                "ora": "04:55",
+                "titolo": "Oggy e i maledetti scarafaggi - Next Generation",
+                "descrizione": "3' Stagione Ep.2 - Oggy si prende cura di Piya, figlia dei suoi amici indiani"
+            },
+            {
+                "ora": "05:15",
+                "titolo": "Oggy e i maledetti scarafaggi - Next Generation",
+                "descrizione": "3' Stagione Ep.3 - Oggy si prende cura di Piya, figlia dei suoi amici indiani"
+            },
+            {
+                "ora": "05:35",
+                "titolo": "Oggy e i maledetti scarafaggi - Next Generation",
+                "descrizione": "3' Stagione Ep.4 - Oggy si prende cura di Piya, figlia dei suoi amici indiani"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "DMAX",
@@ -1089,17 +979,12 @@
                 "descrizione": "Con l'aiuto di Marco Berry, indaghiamo su fenomeni bizzarri."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Rai Sport",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:00",
-                "titolo": "Ciclismo: Giro D'Italia 2026 - 21a Tappa: Roma - Roma",
-                "descrizione": "Gran finale a Roma con arrivo nel cuore della Capitale. Dopo il passaggio sul litorale di Ostia, il Giro si chiude sul circuito cittadino tra rettilinei, curve tecniche e tratti sui sanpietrini."
-            },
             {
                 "ora": "01:00",
                 "titolo": "Atletica: Diamond League 2026 - 3a Tappa: Rabat",
@@ -1116,7 +1001,7 @@
                 "descrizione": "Memory"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sportitalia",
@@ -1183,17 +1068,12 @@
                 "descrizione": "Un'informazione veloce, affidabile e aggiornata h24. “SI Live24” nasce per dare la possibilità a tutti gli appassionati di sport di essere informati tutto il giorno"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "HGTV",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "01:00",
-                "titolo": "Chi cerca trova",
-                "descrizione": "Il cacciatore di tesori Drew Pritchard e' sempre alla ricerca di oggetti originali per il suo negozio. Oggi lavora a pieno ritmo al Trinity Marine, nel Devon, ma la situazione non sara' sempre rosea."
-            },
             {
                 "ora": "02:00",
                 "titolo": "Chi cerca trova",
@@ -1220,17 +1100,12 @@
                 "descrizione": "Una squadra di amici sfida una coppia di innamorati a sistemare e trasformare gli oggetti che hanno scovato nei mercatini delle pulci. Chi verra' premiato?"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "RSI LA 1",
         "categoria": "Digitale Terrestre",
         "programmi": [
-            {
-                "ora": "00:20",
-                "titolo": "Le Occasioni Dell'Amore",
-                "descrizione": "Mathieu vive a Parigi, Alice in una piccola località di mare nella Francia occidentale. Lui è un famoso attore in procinto di compiere cinquant’anni, lei un’insegnante di piano sulla quarantina. Innamorati quindici anni fa, successivamente separati. Il tempo è passato. Ciascuno ha preso la propria strada e le ferite si sono lentamente rimarginate. Quando Mathieu va in una spa per cercare di superare la malinconia che lo attanaglia, si imbatte in Alice."
-            },
             {
                 "ora": "02:05",
                 "titolo": "TG Notte (R)",
@@ -1252,7 +1127,7 @@
                 "descrizione": "Porta d'ingresso alla fascia informativa serale della RSI con ospiti e servizi. Notizie di attualità, cultura e sport dalla Svizzera e dal mondo."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "RSI LA 2",
@@ -1289,7 +1164,7 @@
                 "descrizione": "In diretta il risveglio di Rete Uno, dal lunedì al venerdì."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "DAZN 1",
@@ -1301,27 +1176,12 @@
                 "descrizione": "DAZN 1"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport 24",
         "categoria": "Sport",
         "programmi": [
-            {
-                "ora": "00:30",
-                "titolo": "News Line",
-                "descrizione": "Tutto quello che è accaduto nel panorama sportivo delle ultime 24 ore, con analisi, notizie, e una lettura dei giornali che troveremo in edicola."
-            },
-            {
-                "ora": "01:00",
-                "titolo": "News Line",
-                "descrizione": "Tutto quello che è accaduto nel panorama sportivo delle ultime 24 ore, con analisi, notizie, e una lettura dei giornali che troveremo in edicola."
-            },
-            {
-                "ora": "01:30",
-                "titolo": "News Line",
-                "descrizione": "Tutto quello che è accaduto nel panorama sportivo delle ultime 24 ore, con analisi, notizie, e una lettura dei giornali che troveremo in edicola."
-            },
             {
                 "ora": "02:00",
                 "titolo": "News Line",
@@ -1363,17 +1223,12 @@
                 "descrizione": "Tutto quello che è accaduto nel panorama sportivo delle ultime 24 ore, con analisi, notizie, e una lettura dei giornali che troveremo in edicola."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport Uno",
         "categoria": "Sport",
         "programmi": [
-            {
-                "ora": "00:55",
-                "titolo": "Italia",
-                "descrizione": "Le analisi e gli approfondimenti sull'ultimo Gran Premio con Cristiana Buonamano e i suoi ospiti in studio e dal circuito del Mugello."
-            },
             {
                 "ora": "02:00",
                 "titolo": "Rabat",
@@ -1390,22 +1245,12 @@
                 "descrizione": "Le analisi e gli approfondimenti sull'ultimo Gran Premio con Cristiana Buonamano e i suoi ospiti in studio e dal circuito del Mugello."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport Calcio",
         "categoria": "Sport",
         "programmi": [
-            {
-                "ora": "00:00",
-                "titolo": "Speciale Inter: Il Film Del Campionato",
-                "descrizione": "Campionato Inter Scudetto 2026. - Le emozioni, le partite piu' importanti, le migliori immagini e il filo conduttore di Chivu. Tutto concentrato in questo film del 21^ scudetto, quello dell'anima nerazzurra."
-            },
-            {
-                "ora": "01:00",
-                "titolo": "Paris Saint-Germain - Arsenal Finale:",
-                "descrizione": "Finale: UEFA Champions League. - Francesi per la seconda Champions consecutiva dopo il 5-0 all'Inter. Gunners per la prima Champions dopo la finale persa nel 2006 contro il Barcellona. TC: Marianella-Marchegiani"
-            },
             {
                 "ora": "01:15",
                 "titolo": "Crystal Palace - Rayo Vallecano Finale",
@@ -1427,7 +1272,7 @@
                 "descrizione": "UEFA Champions League Story. - Riviviamo i momenti piu' esaltanti di questa competizione attraverso le partite piu' interessanti. Buon divertimento!"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport Tennis",
@@ -1444,7 +1289,7 @@
                 "descrizione": "Dal Memorial Drive Tennis Centre di Adelaide, Australia."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport F1",
@@ -1481,22 +1326,12 @@
                 "descrizione": "Quinta gara della stagione sul circuito intitolato a Gilles Villeneuve, con Kimi Antonelli leader della classifica. Telecronaca di Carlo Vanzini, Marc Gene' e Roberto Chinchero."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport Legend",
         "categoria": "Sport",
         "programmi": [
-            {
-                "ora": "00:30",
-                "titolo": "Ljubo - L'uomo Salvato Dal Tennis - 1a parte",
-                "descrizione": "tennis. - Ljubo - L'uomo salvato dal tennis"
-            },
-            {
-                "ora": "01:15",
-                "titolo": "Ljubo - L'uomo Salvato Dal Tennis - 2a parte",
-                "descrizione": "tennis. - Ljubo - L'uomo salvato dal tennis"
-            },
             {
                 "ora": "02:00",
                 "titolo": "Gli Anni 90",
@@ -1523,22 +1358,12 @@
                 "descrizione": "L'incredibile storia dei rugbisti uruguyani sopravvissuti a un incidente aereo nel 1972 dopo 72 giorni passati sulle Ande."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport MotoGP",
         "categoria": "Sport",
         "programmi": [
-            {
-                "ora": "00:30",
-                "titolo": "GP Italia: Gara",
-                "descrizione": "Settimo appuntamento del mondiale 2026: al Mugello, in Italia, si accendono i motori per la gara della Moto3. Telecronaca Triolo - Pasini"
-            },
-            {
-                "ora": "01:00",
-                "titolo": "GP Italia: Gara",
-                "descrizione": "Settimo appuntamento del mondiale 2026: al Mugello, in Italia, si accendono i motori per la gara della MotoGP. Telecronaca Guido Meda e Mauro Sanchini"
-            },
             {
                 "ora": "02:10",
                 "titolo": "Italia",
@@ -1565,7 +1390,7 @@
                 "descrizione": "Le analisi e gli approfondimenti sull'ultimo Gran Premio con Cristiana Buonamano e i suoi ospiti in studio e dal circuito del Mugello."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport Basket",
@@ -1592,17 +1417,12 @@
                 "descrizione": "Storie, interviste e approfondimenti ad opera della redazione Basket Sky Sport NBA."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport Arena",
         "categoria": "Sport",
         "programmi": [
-            {
-                "ora": "00:30",
-                "titolo": "New York: Giorno 2",
-                "descrizione": "Le gare del SailGP."
-            },
             {
                 "ora": "02:00",
                 "titolo": "Italia - Scozia",
@@ -1614,22 +1434,12 @@
                 "descrizione": "Eurolega. - I greci, primi in stagione regolare, sfidano i turchi di Nic Melli, campioni in carica e pronti a difendere il titolo. In palio un posto nella finale di Eurolega. TC: Andrea Solaini e Chicca Macchi."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport Max",
         "categoria": "Sport",
         "programmi": [
-            {
-                "ora": "01:00",
-                "titolo": "Toro 1976, Lassù qualcuno ti ama",
-                "descrizione": "Lo Scudetto per gli Immortali - L'apoteosi finale con immagini inedite davanti ai 70mila del Comunale. L'omaggio al Grande Torino e la salita a Superga per lo scudetto."
-            },
-            {
-                "ora": "01:45",
-                "titolo": "La giovane Italia",
-                "descrizione": "Servizi informativi dedicati ai piu' piccoli sportivi italiani e alle realta' giovanili legate al calcio, tra trofei, incontri, e storie."
-            },
             {
                 "ora": "02:00",
                 "titolo": "Beach Soccer LND",
@@ -1641,7 +1451,7 @@
                 "descrizione": "Dall'Indianapolis Motor Speedway, Indianapolis, Stati Uniti."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport Mix",
@@ -1658,7 +1468,7 @@
                 "descrizione": "Il piu' importante torneo di atletica del mondo, dove si sfidano campioni provenienti da ogni paese."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport Golf",
@@ -1680,7 +1490,7 @@
                 "descrizione": "DP World Tour. - From Golfclub Kitzbuhel-Schwarzsee-Reith in Kitzbuhel, Austria."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport 251",
@@ -1692,7 +1502,7 @@
                 "descrizione": "Iaaf Diamond League 2026 Rabat. Dalle ore 20:00"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport 252",
@@ -1704,7 +1514,7 @@
                 "descrizione": "La programmazione sarà disponibile fra qualche ora vi preghiamo di riprovare"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport 253",
@@ -1716,7 +1526,7 @@
                 "descrizione": "La programmazione sarà disponibile fra qualche ora vi preghiamo di riprovare"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport 254",
@@ -1728,7 +1538,7 @@
                 "descrizione": "La programmazione sarà disponibile fra qualche ora vi preghiamo di riprovare"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport 255",
@@ -1740,7 +1550,7 @@
                 "descrizione": "La programmazione sarà disponibile fra qualche ora vi preghiamo di riprovare"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport 256",
@@ -1752,7 +1562,7 @@
                 "descrizione": "La programmazione sarà disponibile fra qualche ora vi preghiamo di riprovare"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport 257",
@@ -1764,7 +1574,7 @@
                 "descrizione": "La programmazione sarà disponibile fra qualche ora vi preghiamo di riprovare"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport 258",
@@ -1776,7 +1586,7 @@
                 "descrizione": "La programmazione sarà disponibile fra qualche ora vi preghiamo di riprovare"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Sport 259",
@@ -1788,7 +1598,7 @@
                 "descrizione": "La programmazione sarà disponibile fra qualche ora vi preghiamo di riprovare"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Cinema Uno",
@@ -1810,7 +1620,7 @@
                 "descrizione": "Maria Chiara Giannetta e Francesco di Napoli in fuga attraverso l’Italia: un dietro le quinte svela retroscena, location e scene action della serie."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Cinema Uno +24",
@@ -1832,7 +1642,7 @@
                 "descrizione": "Otto giurati, blindati in una camera di consiglio per 36 giorni a decidere condanne e assoluzioni per 470 imputati. Siamo dentro l'atto finale del più grande processo penale della storia: il Maxi processo di Palermo."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Cinema Due",
@@ -1854,7 +1664,7 @@
                 "descrizione": "Una famiglia siciliana raccontata attraverso tre generazioni: da Cicco al figlio Peppino al nipote Pietro... Sfiorando le vicende private di questi personaggi e dei loro familiari, il film evoca gli amori, i sogni, le delusioni di un'intera comunità vissuta tra gli anni trenta e gli anni ottanta del secolo scorso nella provincia di Palermo. Negli anni del fascismo Cicco è un modesto pecoraio che trova, però, il tempo di dedicarsi al proprio mito: i libri, i poemi cavallereschi, i grandi romanzi popolari. Nelle stagioni della fame e della seconda guerra mondiale, suo figlio Peppino s'imbatte nell'ingiustizia e scopre la passione per la politica."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Cinema Due +24",
@@ -1921,7 +1731,7 @@
                 "descrizione": "Anora, una giovane prostituta di Brooklyn, ha la possibilità di vivere una storia da Cenerentola quando incontra e sposa impulsivamente il figlio di un oligarca. Quando la notizia arriva in Russia, la sua favola è minacciata: i genitori partono per New York per far annullare il matrimonio."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Cinema Collection",
@@ -1938,7 +1748,7 @@
                 "descrizione": "Durante la guerra di Secessione, tre spregiudicati avventurieri, cercano di impossessarsi di un carico d'oro che gli permetterebbe di chiudere con la vita da pistoleri. Ma la guerra li costringerà a cambiare i loro piani."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Cinema Family",
@@ -1965,7 +1775,7 @@
                 "descrizione": "Il piccolo drago Nocedicocco vive sull'isola dei draghi insieme agli amici Oscar e Matilda. I tre stanno sempre insieme dal momento che sono diversi dal resto degli altri animali: Nocedicocco, nonostante sia un drago, non può volare mentre Oscar è un \"mangia drago\" vegetariano e Matilda un porcospino. Ben presto, però, i tre avranno modo di dimostrare tutto il loro valore e coraggio grazie al furto di qualcosa di molto prezioso per tutti i draghi."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Cinema Action",
@@ -1987,7 +1797,7 @@
                 "descrizione": "Un mercenario accetta l'incarico di rintracciare un bersaglio su un aereo, ma è costretto a proteggerlo quando si ritrovano circondati da persone decise a uccidere entrambi."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Cinema Suspense",
@@ -2014,7 +1824,7 @@
                 "descrizione": "Tra thriller psicologico ed eccentrica commedia famigliare (il terreno privilegiato fino a oggi dalla regista Rebecca Zlotowski, autrice di Un’estate con Sofia e I figli degli altri), la storia di Lilian, psicanalista razionale e sicura di sé (una Jodie Foster superlativa anche in versione francofona), che comincia a “deragliare” quando una sua paziente muore suicida. Sospettando che si tratti di un omicidio, Lilian comincia a indagare e, ovviamente, a dubitare di se stessa e delle proprie capacità, fino a sottoporsi a una seduta di ipnosi. E qui i mondi si confondono. Dubbi, certezze, insicurezze, il passato, altre vite, sospetti s’inseguono sulla faccia altera e impagabile di Jodie Foster, circondata da Daniel Auteuil (il suo ex marito) e da Virginie Efira e Mathieu Amalric (la vittima e l’ambiguo compagno di lei)."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Cinema Romance",
@@ -2036,7 +1846,7 @@
                 "descrizione": "Joe Fox e Kathleen Kelly vivono e lavorano a pochi isolati di distanza nell'Upper West Side. I negozi che frequentano sono gli stessi e passeggiano per le stesse strade. Lui è il proprietario della più importante catena di bookstore di Manhattan, le megalibrerie Fox, mentre lei gestisce una piccola libreria per bambini ereditata dalla madre, \"Il Negozio Dietro l'Angolo\" proprio accanto al bookstore. I due si incontrano in una chat-room, e nasce un'amicizia sebbene anonima. Nella vita reale invece, s'incontrano ad una festa di beneficenza in cui capiscono di non sopportarsi, ma le cose cambiano man mano che iniziano a frequentarsi."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Cinema Drama",
@@ -2058,17 +1868,12 @@
                 "descrizione": "La vicenda di tre fratelli figli di un pastore, coinvolti dalla malavita dell'Aspromonte. Il più giovane, Luigi, è un trafficante internazionale di droga; Rocco vive a Milano con la moglie Valeria e la loro bambina. Non accetta lo stile di vita del fratello minore ma è imprenditore grazie a denaro illecito, riciclato in campo immobiliare; il maggiore dei tre, Luciano, allevatore di capre, si illude di poter vivere della sua terra. Il figlio Leo, ventenne rancoroso e senza futuro, sparando alcuni colpi di fucile sulla saracinesca di un bar protetto da un clan rivale, scatena una guerra tra famiglie che vede perire prima Luigi poi Leo nel meccanismo delle vendette incrociate."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Cinema Comedy",
         "categoria": "Cinema",
         "programmi": [
-            {
-                "ora": "00:10",
-                "titolo": "I Delitti Del Barlume - La Danza Dello Squalo",
-                "descrizione": "Massimo è un ombroso barista, divorziato da poco, che si trova a indagare su alcuni delitti che avvengono nella sua cittadina toscana, Pineta. Il suo istinto d'investigatore trova sempre spunti in alcune conversazioni, che è costretto a sedare nel suo bar, ad opera di quattro arzilli vecchietti. Mentre indaga, Massimo si divide fra un amore per il commissario di polizia Vittoria Fusco, le vicende della sua barista Tiziana e la comparsa del suo fratellastro, Beppe."
-            },
             {
                 "ora": "01:35",
                 "titolo": "Caro Dittatore",
@@ -2085,7 +1890,7 @@
                 "descrizione": "La famiglia Tucci vive a Torresecca, paesino vicino a Zagarolo, e non ha mai conosciuto il benessere. Danilo, il padre, intreccia mozzarelle e sogna la Formula Uno; Loredana, la madre, è casalinga con l'ossessione della pulizia (perché \"i germi s'ingrifano al tramonto\") e un talento speciale per i supplì; la figlia Tamara fa la cassiera al super e precede ogni sua opinione con \"hashtag\"; Marcello, lo zio, è un disoccupato cronico col diploma di perito agrario; Nicoletta, la nonna, passa le giornate davanti alla tv e ha una cotta per Gabriel Garko. Ma i Tucci si vogliono bene e nonostante i piccoli screzi quotidiani sono una famiglia unita, perciò quando vincono 100 milioni di euro alla lotteria la loro vita viene rivoluzionata. Rimanere a Torresecca è impossibile e si trasferiscono in blocco a Milano, prendendo alloggio in un hotel 5 stelle in zona piazza Gae Aulenti. È in quell'albergo che Marcello incontrerà Valentina, la donna che gli cambierà ulteriormente la vita."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Uno",
@@ -2122,17 +1927,12 @@
                 "descrizione": "Ep7 di 16 - Dopo aver perso un altro membro della squadra, la squadra rossa si unisce nella speranza di vincere le prossime sfide e sconfiggere la squadra blu."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Atlantic",
         "categoria": "Intrattenimento",
         "programmi": [
-            {
-                "ora": "01:05",
-                "titolo": "Rosa Elettrica - In fuga con il nemico",
-                "descrizione": "Al centro della storia Rosa, giovane agente del programma protezione testimoni incaricata di scortare Cocìss, baby boss di camorra deciso a collaborare, interpretato dal co-protagonista Francesco Di Napoli. Quando scopre che qualcosa nell’operazione non torna, Rosa rompe la catena di comando e fugge con lui: da quel momento entrambi diventano bersagli, costretti ad attraversare l’Italia senza potersi fidare di nessuno, nemmeno delle istituzioni che dovrebbero proteggerli."
-            },
             {
                 "ora": "02:05",
                 "titolo": "Rosa Elettrica - In fuga con il nemico",
@@ -2154,22 +1954,12 @@
                 "descrizione": "Un gruppo di liceali si trova alle prime armi con droghe, sesso, identità, traumi, amore e amicizia."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Serie",
         "categoria": "Intrattenimento",
         "programmi": [
-            {
-                "ora": "00:35",
-                "titolo": "The Serpent Queen",
-                "descrizione": "Considerata un'immigrata, comune e semplice, Caterina de' Medici è sposata alla corte francese del XVI secolo da adolescente orfana che dovrebbe portare una fortuna in dote e produrre molti eredi, solo per scoprire che suo marito è innamorato di una donna anziana, la sua la dote non è pagata e lei non riesce a concepire. Eppure, solo con la sua intelligenza e determinazione, riesce a mantenere vivo il suo matrimonio e padroneggia meglio di chiunque altro lo sport sanguinario che è la monarchia, governando la Francia per 50 anni."
-            },
-            {
-                "ora": "01:30",
-                "titolo": "Luca Argentero",
-                "descrizione": "Intervista a Luca Argentero circondato dai cuccioli."
-            },
             {
                 "ora": "01:50",
                 "titolo": "A Very Royal Scandal",
@@ -2196,22 +1986,12 @@
                 "descrizione": "Un segreto legato a una dolorosa vicenda del passato torna all’improvviso nelle vite dei Ristuccia, proprietari del ristorante La Villetta, da quarant’anni uno dei più rinomanti locali della Capitale. Carlo, la nuova compagna Ginevra e la sorella Sara sono sempre lì, tutti i giorni, ad aiutare i genitori Pietro e Alba nella gestione dell’attività. Unico assente Paolo, il fratello artista, che nessuno sa dove sia. Un giorno, però, un evento inaspettato sconvolge gli equilibri familiari."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Investigation",
         "categoria": "Intrattenimento",
         "programmi": [
-            {
-                "ora": "00:20",
-                "titolo": "Law & Order: I due volti della giustizia",
-                "descrizione": "Law & Order è un media franchise creato da Dick Wolf per la NBC Universal e formato da varie serie televisive poliziesco-giudiziarie e un film per la televisione, trasmessi sul network NBC dal 13 settembre 1990. Il franchise Law & Order nel tempo ha ispirato anche una serie di adattamenti televisivi stranieri, un docu-reality e videogiochi ufficiali, oltre a generare una serie di crossover con altre serie tv statunitensi."
-            },
-            {
-                "ora": "01:10",
-                "titolo": "Law & Order: I due volti della giustizia",
-                "descrizione": "Law & Order è un media franchise creato da Dick Wolf per la NBC Universal e formato da varie serie televisive poliziesco-giudiziarie e un film per la televisione, trasmessi sul network NBC dal 13 settembre 1990. Il franchise Law & Order nel tempo ha ispirato anche una serie di adattamenti televisivi stranieri, un docu-reality e videogiochi ufficiali, oltre a generare una serie di crossover con altre serie tv statunitensi."
-            },
             {
                 "ora": "01:55",
                 "titolo": "Delitti in Paradiso",
@@ -2238,17 +2018,12 @@
                 "descrizione": "Un'insegnante d'inglese in pensione, Jessica B. Fletcher, dopo essere rimasta vedova intorno ai cinquant'anni del marito Frank, diventa quasi per caso una scrittrice di successo. Nonostante la fama e la fortuna ottenute, Jessica continua a vivere una vita semplice e salutare, risiedendo nel piccolo paese di Cabot Cove, sulla costa del Maine, e coltivando le sue vecchie amicizie, che la portano spesso in giro per il mondo. La signora Fletcher avrà a che fare con una serie di omicidi che ne risvegliano l'insaziabile curiosità, portandola a risolvere i casi della più varia natura."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Crime",
         "categoria": "Intrattenimento",
         "programmi": [
-            {
-                "ora": "00:45",
-                "titolo": "EX - Non mi manchi per niente",
-                "descrizione": "Una coppia scopre che in passato le loro due famiglie si sono scontrate. Una donna tenta di motivare il suo fidanzato che e' depresso, ma lo spinge verso un pericoloso incontro."
-            },
             {
                 "ora": "01:30",
                 "titolo": "EX - Non mi manchi per niente",
@@ -2285,17 +2060,12 @@
                 "descrizione": "Ep3 di 7 Bluewhale: la verita' - 'Bluewhale' e' la sfida social che incita gli adolescenti ad affrontare 50 prove in 50 giorni, fino al suicidio, tutto sistematicamente documentato. Il fenomeno ha origine in Russia."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Adventure",
         "categoria": "Intrattenimento",
         "programmi": [
-            {
-                "ora": "00:40",
-                "titolo": "Io e gli orsi polari",
-                "descrizione": "L'avventuroso cameraman Gordon Buchanan trova la tana di un orso polare a Svalbard, e segue la madre Lyra e i suoi cuccioli Miki e Luca."
-            },
             {
                 "ora": "01:45",
                 "titolo": "Io e gli orsi polari",
@@ -2322,22 +2092,12 @@
                 "descrizione": "Seguiamo la vita quotidiana di alcune famiglie che vivono nello Yukon. Sue, Glenn, Andy, gli Hailstone, Erik e Jessie, cercano di sopravvivere all'inverno immersi nelle rigide temperature dell'Alaska."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "MTV",
         "categoria": "Intrattenimento",
         "programmi": [
-            {
-                "ora": "00:45",
-                "titolo": "Ridiculousness: Veri American Idiots",
-                "descrizione": "Ep10 di 42 Sterling e Carly Aquilino XX - Rob, Steelo e Carly Aquilino guardano SLACKED OFF e imparano il pericolo del carosello in SPIN SEEKERS."
-            },
-            {
-                "ora": "01:10",
-                "titolo": "Love and Hip Hop Atlanta",
-                "descrizione": "Ep23 di 31 - Momma Dee porge un ramo d'ulivo a Bambi."
-            },
             {
                 "ora": "01:50",
                 "titolo": "Love and Hip Hop Atlanta",
@@ -2379,27 +2139,12 @@
                 "descrizione": "Ep21 di 42 Sterling e Nina Agdal LIII - Rob impartisce lezioni di vocabolario a Steelo e Nina Agdal in JAMB SLAMS."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Comedy Central",
         "categoria": "Intrattenimento",
         "programmi": [
-            {
-                "ora": "00:45",
-                "titolo": "Frasier",
-                "descrizione": "Dopo molti anni trascorsi al bar \"Cheers\", Frasier torna a casa a Seattle per lavorare come psichiatra radiofonico dopo che suo padre poliziotto è stato colpito all'anca in servizio."
-            },
-            {
-                "ora": "01:05",
-                "titolo": "Frasier",
-                "descrizione": "Dopo molti anni trascorsi al bar \"Cheers\", Frasier torna a casa a Seattle per lavorare come psichiatra radiofonico dopo che suo padre poliziotto è stato colpito all'anca in servizio."
-            },
-            {
-                "ora": "01:30",
-                "titolo": "Frasier",
-                "descrizione": "Dopo molti anni trascorsi al bar \"Cheers\", Frasier torna a casa a Seattle per lavorare come psichiatra radiofonico dopo che suo padre poliziotto è stato colpito all'anca in servizio."
-            },
             {
                 "ora": "01:50",
                 "titolo": "Frasier",
@@ -2444,24 +2189,24 @@
                 "ora": "04:50",
                 "titolo": "Most Ridiculous",
                 "descrizione": "Ep12 di 20 Episodio 12 - Lo show che passa in rassegna i video piu' demenziali del web con il commento dissacrante di Gabriele Cirilli e Dario Cassini."
+            },
+            {
+                "ora": "05:10",
+                "titolo": "See Dad Run",
+                "descrizione": "Ep18 di 20 - Janie va a lezione di danza, con pessimi risultati, mentre Amy interpreta Sasha DeSario, un'adolescente ribelle."
+            },
+            {
+                "ora": "05:35",
+                "titolo": "See Dad Run",
+                "descrizione": "Ep19 di 20 - Joe deve dare il suo primo bacio a una ragazza e l'agitazione lo spinge al sonnambulismo. David, vittima di un equivoco, pensa che il figlio debba fare a pugni e gli da un consiglio..."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Arte",
         "categoria": "Documentari",
         "programmi": [
-            {
-                "ora": "00:20",
-                "titolo": "Moda - Una Rivoluzione Italiana",
-                "descrizione": "S1 Ep4 - La moda reagisce agli eccessi della decade precedente con un’estetica più minimalista. Inclusività è la parola d’ordine di questi anni."
-            },
-            {
-                "ora": "01:20",
-                "titolo": "Grand Tour. Le Accademie Della Moda",
-                "descrizione": "La formazione e la trasmissione dei saperi artigianali della moda italiana attraverso scuole con percorsi formativi altamente specializzati nel campo dell'alta sartoria, della pelletteria, dell'orologeria, dell'oreficeria."
-            },
             {
                 "ora": "02:10",
                 "titolo": "Franco Battiato - Il tributo",
@@ -2488,7 +2233,7 @@
                 "descrizione": "Ep7 di 12 Zagor - Un'incredibile serie in live-action e animazione che racconta la realta' quotidiana di un editor alle prese con collaboratori eccezionali. Lo Spirito con la Scure e' di fronte a un bivio."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Documentaries",
@@ -2520,17 +2265,12 @@
                 "descrizione": "Ep10 di 12 Martin Mystere - Un'incredibile serie in live-action e animazione che racconta la realta' quotidiana di un editor alle prese con collaboratori eccezionali. Il Detective dell'impossibile lavora sul nuovo numero."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky Nature",
         "categoria": "Documentari",
         "programmi": [
-            {
-                "ora": "00:45",
-                "titolo": "Diario di un giaguaro",
-                "descrizione": "Ep. 1 di 5 - Quando viene a mancare un maschio dominante, quale candidato è pronto a sostituirlo?"
-            },
             {
                 "ora": "01:40",
                 "titolo": "Diario di un giaguaro",
@@ -2562,27 +2302,12 @@
                 "descrizione": "La squadra si occupa di un serpente nero dal ventre rosso che si è sistemato nel cancello d'ingresso di una famiglia. Mick e Adele inseguono i serpenti da sotto la piscina di una famiglia fino alle travi di una scuderia."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Discovery Channel",
         "categoria": "Documentari",
         "programmi": [
-            {
-                "ora": "00:30",
-                "titolo": "Marchio di fabbrica",
-                "descrizione": "Molti oggetti che usiamo oggi sono il risultato di sofisticati processi di produzione ingegneristici. Come vengono creati?"
-            },
-            {
-                "ora": "01:00",
-                "titolo": "Marchio di fabbrica",
-                "descrizione": "Piu' di 35 milioni di persone amano il surf ma come vengono realizzate le tavole da surf? La popolazione mondiale consuma circa 10 milioni di tonnellate di burro. Come viene prodotto?"
-            },
-            {
-                "ora": "01:35",
-                "titolo": "Marchio di fabbrica",
-                "descrizione": "I migliori cavalli da corsa ricevono trattamenti da VIP prima di essere dati ai proprietari. Come vengono trasportati? Quali metodi creativi vengono usati per fotografare il cibo?"
-            },
             {
                 "ora": "02:05",
                 "titolo": "NASA X-Files",
@@ -2609,22 +2334,12 @@
                 "descrizione": "Come vengono create alcune delle penne a sfera piu' lisce del mondo che non perdono inchiostro e la scrittura non sbiadisce? E come viene preparata la pizza per i soldati al fronte?"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "History Channel",
         "categoria": "Documentari",
         "programmi": [
-            {
-                "ora": "00:35",
-                "titolo": "Affari al buio",
-                "descrizione": "Brandi è intenzionata a conquistare il suo primo armadietto a Santa Ana e per farlo deve controllarsi. Rene trova oggetti interessanti in un armadietto, Kenny si affida all'universo e Barry fatica a rimanere in competizione."
-            },
-            {
-                "ora": "01:00",
-                "titolo": "Affari al buio",
-                "descrizione": "Ivy porta Isaiah a Victorville come punizione per i brutti voti in pagella. Kenny vuole decorare la casa nuova ma si trova davanti otto ostacoli mentre Lisa impara molto."
-            },
             {
                 "ora": "01:25",
                 "titolo": "Affari Di Famiglia",
@@ -2646,37 +2361,12 @@
                 "descrizione": "La triste storia degli attentati dell'11 settembre raccontata da chi ha vissuto in prima persona quei terribili momenti."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Cartoon Network",
         "categoria": "Bambini",
         "programmi": [
-            {
-                "ora": "00:40",
-                "titolo": "Ben 10: Ultimate Challenge",
-                "descrizione": "Ep8 di 10 - I fan di Ben 10 si sfidano in una gara entusiasmante!"
-            },
-            {
-                "ora": "01:00",
-                "titolo": "Ben 10: Ultimate Challenge",
-                "descrizione": "Ep9 di 10 - I fan di Ben 10 si sfidano in una gara entusiasmante!"
-            },
-            {
-                "ora": "01:25",
-                "titolo": "MeteoHeroes",
-                "descrizione": "Ep39 di 52 La miniera in fondo al mare - Allarme dal Mar del Giappone! Tempus ha rilevato delle sospette attivita' dannose nella zona. Ventum e Pluvia devono indagare!"
-            },
-            {
-                "ora": "01:35",
-                "titolo": "MeteoHeroes",
-                "descrizione": "Ep40 di 52 Ciliegi frettolosi - Allarme dal Giappone! Un misterioso aumento delle temperature sta facendo fiorire i ciliegi in anticipo e il Festival della fioritura dei ciliegi e' in pericolo."
-            },
-            {
-                "ora": "01:50",
-                "titolo": "MeteoHeroes",
-                "descrizione": "Ep41 di 52 Mamma foca - Allarme dalla riserva naturale del mare di Wadden in Germania! Qualcosa disturba e minaccia il benessere della colonia locale di foche. Vai MeteoHeroes!"
-            },
             {
                 "ora": "02:00",
                 "titolo": "MeteoHeroes",
@@ -2711,49 +2401,39 @@
                 "ora": "03:45",
                 "titolo": "MeteoHeroes",
                 "descrizione": "Ep45 di 52 Antichita' in fiamme - Allarme dalla Grecia! Un'ondata di caldo senza precedenti ha colpito il paese e la siccita' ha reso molto facile l'innescarsi degli incendi! Pluvia tocca a te!"
+            },
+            {
+                "ora": "04:00",
+                "titolo": "MeteoHeroes",
+                "descrizione": "Ep46 di 52 Mulinelli di sabbia - Allarme in Cina: una terribile tempesta di sabbia e' iniziata vicino al confine con la Mongolia. Nix e Ventum vengono scelti per la missione."
+            },
+            {
+                "ora": "04:10",
+                "titolo": "MeteoHeroes",
+                "descrizione": "Ep47 di 52 Acqua dolce, acqua salata - Allarme dalla Spagna! L'acqua potabile e' diventata salata su una delle Isole Canarie! Thermo, Ventum e Pluvia vanno sul posto."
+            },
+            {
+                "ora": "04:25",
+                "titolo": "Ben 10: Ultimate Challenge",
+                "descrizione": "Ep3 di 10 - I fan di Ben 10 si sfidano in una gara entusiasmante!"
+            },
+            {
+                "ora": "04:45",
+                "titolo": "Ben 10: Ultimate Challenge",
+                "descrizione": "Ep4 di 10 - I fan di Ben 10 si sfidano in una gara entusiasmante!"
+            },
+            {
+                "ora": "05:10",
+                "titolo": "MeteoHeroes",
+                "descrizione": "Ep48 di 52 La terra dei Lemuri - Allarme dal Madagascar! Un disastroso incendio nella parte sud-est dell'isola! Una colonia di lemuri dalla coda ad anelli e' in grave pericolo!"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Dea Kids",
         "categoria": "Bambini",
         "programmi": [
-            {
-                "ora": "00:55",
-                "titolo": "Oggy e i maledetti scarafaggi",
-                "descrizione": "Oggy decide di mettersi a covare un uovo. Mentre aspetta che si schiuda, Piya si sente trascurata dallo zio, trasformatosi in una gallina!"
-            },
-            {
-                "ora": "01:05",
-                "titolo": "Oggy e i maledetti scarafaggi",
-                "descrizione": "Mentre giocano in soffitta, Piya e gli scarafaggi trovano uno scrigno segreto ben chiuso. Tutti vorrebbero sapere cosa contiene, ma Oggy non è disposto ad aprirlo per loro."
-            },
-            {
-                "ora": "01:10",
-                "titolo": "Oggy e i maledetti scarafaggi",
-                "descrizione": "Dopo aver salvato Piya dal drone di Kevin, Oggy è diventato ai suoi occhi un vero eroe. Il problema ora è: come conservare questa buona reputazione?"
-            },
-            {
-                "ora": "01:20",
-                "titolo": "Oggy e i maledetti scarafaggi",
-                "descrizione": "Oggy scaraventa gli scarafaggi oltre la siepe: i tre finiscono da Bob, in un barattolo di sottaceti aperto che il cane sta per buttare nella spazzatura..."
-            },
-            {
-                "ora": "01:30",
-                "titolo": "Oggy e i maledetti scarafaggi",
-                "descrizione": "Durante una gita che prevede gare di orientamento, Kevin bara in tutte le attività, così gli scarafaggi e Piya decidono di dargli una lezione."
-            },
-            {
-                "ora": "01:35",
-                "titolo": "Oggy e i maledetti scarafaggi",
-                "descrizione": "Colpito in testa dal ritratto di un antenato di Oggy, DeeDee si trasforma in un perfetto maggiordomo. Oggy è contento del cambiamento, gli amici dello scarafaggio un po' meno..."
-            },
-            {
-                "ora": "01:45",
-                "titolo": "Egyxos",
-                "descrizione": "Ep11 di 26 Il pozzo del buio - La squadra di basket dei Raccoons arriva in citta per un tour ma i giocatori vengono rapiti per essere trasformati in supersoldati agli ordini del terribile Exaton."
-            },
             {
                 "ora": "02:10",
                 "titolo": "Egyxos",
@@ -2778,101 +2458,116 @@
                 "ora": "03:40",
                 "titolo": "Oggy e i maledetti scarafaggi",
                 "descrizione": "Mentre giocano in soffitta, Piya e gli scarafaggi trovano uno scrigno segreto ben chiuso. Tutti vorrebbero sapere cosa contiene, ma Oggy non è disposto ad aprirlo per loro."
+            },
+            {
+                "ora": "03:50",
+                "titolo": "Oggy e i maledetti scarafaggi",
+                "descrizione": "Dopo aver salvato Piya dal drone di Kevin, Oggy è diventato ai suoi occhi un vero eroe. Il problema ora è: come conservare questa buona reputazione?"
+            },
+            {
+                "ora": "03:55",
+                "titolo": "Oggy e i maledetti scarafaggi",
+                "descrizione": "Oggy scaraventa gli scarafaggi oltre la siepe: i tre finiscono da Bob, in un barattolo di sottaceti aperto che il cane sta per buttare nella spazzatura..."
+            },
+            {
+                "ora": "04:05",
+                "titolo": "Oggy e i maledetti scarafaggi",
+                "descrizione": "Durante una gita che prevede gare di orientamento, Kevin bara in tutte le attività, così gli scarafaggi e Piya decidono di dargli una lezione."
+            },
+            {
+                "ora": "04:15",
+                "titolo": "Egyxos",
+                "descrizione": "Ep11 di 26 Il pozzo del buio - La squadra di basket dei Raccoons arriva in citta per un tour ma i giocatori vengono rapiti per essere trasformati in supersoldati agli ordini del terribile Exaton."
+            },
+            {
+                "ora": "04:40",
+                "titolo": "Egyxos",
+                "descrizione": "Ep12 di 26 Il grande fiume - Kefer vuole portare l'acqua del grande fiume nella Terra di Nessuno perche' anche in quel luogo desolato cresca la vita, ma Exaton non e' della sua stessa idea..."
+            },
+            {
+                "ora": "05:00",
+                "titolo": "Freestyle. Tutta Un'Altra Stanza",
+                "descrizione": "Ep2 - Grazie al team di Giovanni i desideri diventano realta': cosi la stanza di ogni ragazzo potra' diventare o una foresta incantata o un mondo fatto di cielo e stelle o uno spazio per celebrare la squadra del cuore!"
+            },
+            {
+                "ora": "05:30",
+                "titolo": "Freestyle. Tutta Un'Altra Stanza",
+                "descrizione": "Ep3 - Grazie al team di Giovanni i desideri diventano realta': cosi la stanza di ogni ragazzo potra' diventare o una foresta incantata o un mondo fatto di cielo e stelle o uno spazio per celebrare la squadra del cuore!"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Nick Jr",
         "categoria": "Bambini",
         "programmi": [
             {
-                "ora": "00:55",
+                "ora": "02:10",
                 "titolo": "Team Jay",
-                "descrizione": "Ep22 di 26 E' un tornado! - Meena escogita un piano per appropriarsi di Jay e farlo diventare il suo pony, crea un tornado con cui cerca di rapirlo."
+                "descrizione": "Ep10 di 26 Il paesino - Jay e i suoi amici sono convinti di esser stati rapiti dagli alieni, ma invece sono vittime del 'rimpicciolitore' di Mildew, il cui unico scopo e' rubare la magia del Team Jay."
             },
             {
-                "ora": "01:00",
+                "ora": "02:15",
                 "titolo": "Team Jay",
-                "descrizione": "Ep23 di 26 Caccia al tesoro - Il Team Jay trova una mappa del tesoro: sembra che il tesoro si trovi proprio nel giardino di Meena, cosi' decidono di fare un accordo con lei."
+                "descrizione": "Ep11 di 26 Portali - Mildew vorrebbe rubare la magia del Team Jay: per riuscire nel suo intento, crea un macchinario capace di creare portali interdimensionali."
             },
             {
-                "ora": "01:05",
+                "ora": "02:20",
                 "titolo": "Team Jay",
-                "descrizione": "Ep24 di 26 Tempo supplementare - Meena ha un telecomando che le permette di andare indietro nel tempo: lo usa con il Team Jay, per riuscire a non farli scappare e prendere Jay."
+                "descrizione": "Ep12 di 26 Colleganatre - Matteo, sconvolto per un brutto voto, si rifugia nella confortante realta' virtuale di un videogioco. Il Team Jay al completo parte alla sua ricerca per riportarlo a casa."
             },
             {
-                "ora": "01:10",
+                "ora": "02:25",
                 "titolo": "Team Jay",
-                "descrizione": "Ep25 di 26 Il miglior pallone del mondo - Meena trova dei palloni in grado di rendere chiunque bravissimo nei trucchetti di freestyle, ma al momento giusto sara' il Team Jay ad avere la meglio."
+                "descrizione": "Ep13 di 26 Guerrieri del cielo - Wushu e' sconfortata dall'idea di non essere degna dei Guerrieri del Cielo, perche' non riesce a superare le prove che si auto impone ne' a insegnare al prossimo la disciplina."
             },
             {
-                "ora": "01:15",
+                "ora": "02:30",
                 "titolo": "Team Jay",
-                "descrizione": "Ep26 di 26 Indietro nel tempo - Hannibal ruba al Team Jay il telecomando per viaggiare nel tempo: insieme a Mildew, tornera' indietro nel tentativo di catturare finalmente Jay."
+                "descrizione": "Ep14 di 26 Un pomeriggio a casa di Meena - Cami accetta di passare un pomeriggio a giocare a casa di Meena. Ma quest'ultima ha chiamato Cami solo perche' vuole battere il record mondiale al flipper."
             },
             {
-                "ora": "01:20",
+                "ora": "02:35",
                 "titolo": "Team Jay",
-                "descrizione": "Ep1 di 26 Il cavallo a strisce - Il Team Jay sta giocando tranquillamente quando all'improvviso Meena rapisce Jay per portarlo nel suo recinto e farlo diventare il suo personale pony a strisce."
+                "descrizione": "Ep15 di 26 Detective Jay - Matteo, Cami, Duke e Wushu organizzano una festa a sorpresa per il compleanno di Jay ma quest'ultimo, non trovandoli in casa, si traveste da Detective Jay per scovarli."
             },
             {
-                "ora": "01:25",
+                "ora": "02:40",
                 "titolo": "Team Jay",
-                "descrizione": "Ep2 di 26 Ci vedo doppio - Mildew e Hannibal vogliono rapire Jay per rubargli tutta la magia, ma qualcosa va storto: Jay viene diviso in due, uno e' un eroe e l'altro totalmente diverso."
+                "descrizione": "Ep16 di 26 Pop Zombie - Meena riesce a inventare una speciale canzone, in grado di trasformare tutte le persone in zombie che adorano la sua musica."
             },
             {
-                "ora": "01:30",
+                "ora": "02:45",
                 "titolo": "Team Jay",
-                "descrizione": "Ep3 di 26 Dami e Cuke - Meena tende una trappola al Team Jay in una casa degli specchi, con l'intento di scambiare il corpo di Jay e Petunia e ottenere cosi' il perfetto cavallo da salto."
+                "descrizione": "Ep17 di 26 Il progetto di Cami - Cami e' intenta a preparare un progetto per la scuola, ma in realta' e' molto piu' attratta dall'idea di voler battere un nuovo record con la palla."
             },
             {
-                "ora": "01:35",
-                "titolo": "Team Jay",
-                "descrizione": "Ep4 di 26 Cimici spia - Mildew ha installato delle cimici per spiare il Team Jay e scoprire tutti i loro piani, ma il Team trovera' il modo di fermarlo."
+                "ora": "02:50",
+                "titolo": "Team Jay - Le sfide di Jay",
+                "descrizione": "Ep18 di 26 Le sfide di Jay - Jay non resistere alla tentazione di partecipare a ogni sfida che gli viene proposta e non si accorge che Mildew, in realta', lo sta ingannando. Il suo intento infatti e'"
             },
             {
-                "ora": "01:45",
+                "ora": "03:00",
                 "titolo": "Team Jay",
-                "descrizione": "Ep5 di 26 L'Exaggerator - Mildew costruisce un particolare congegno con l'obiettivo di rubare la magia di Jay e amplificarla, ma qualcosa va storto."
+                "descrizione": "Ep19 di 26 Parrucche impazzite - Hannibal sfrutta la moda del momento, le parrucche, per trasformare tutti in suoi servitori. Matteo e' l'unico a non indossarla, e questa sua 'sfortuna' salvera' il Team Jay."
             },
             {
-                "ora": "01:50",
+                "ora": "04:10",
                 "titolo": "Team Jay",
-                "descrizione": "Ep6 di 26 La gara annuale di torte - Jay fa da giudice alla gara annuale di torte, Duke, come sempre, e' convinto di poterla vincere ma avra' un sorprendente rivale. Chi si aggiudichera' il premio?"
+                "descrizione": "Ep20 di 26 Il criceto che gridava al lupo - Duke fa preoccupare gli amici facendo creder loro di stare male. E quando scopre il piano malefico di Mildew e avvisa i componenti del Team, loro non gli credono."
             },
             {
-                "ora": "01:55",
+                "ora": "04:20",
                 "titolo": "Team Jay",
-                "descrizione": "Ep7 di 26 Il potere dei fiori - Duke il criceto, trasforma un fiorellino in una pianta carnivora, nutrendola per errore con salsa piccante e concime. Ci pensera' il team Jay a salvare l'intera cittadina."
+                "descrizione": "Ep21 di 26 Shh! - Mildew riesce a rubare il tablet di Matteo, che si arrabbia con Jay per aver fatto scappare Mildew. I due iniziano ad incolparsi a vicenda."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Boomerang",
         "categoria": "Bambini",
         "programmi": [
-            {
-                "ora": "00:40",
-                "titolo": "Ben 10: Ultimate Challenge",
-                "descrizione": "Ep5 di 10 - I fan di Ben 10 si sfidano in una gara entusiasmante!"
-            },
-            {
-                "ora": "01:05",
-                "titolo": "MeteoHeroes",
-                "descrizione": "Ep45 di 52 Antichita' in fiamme - Allarme dalla Grecia! Un'ondata di caldo senza precedenti ha colpito il paese e la siccita' ha reso molto facile l'innescarsi degli incendi! Pluvia tocca a te!"
-            },
-            {
-                "ora": "01:15",
-                "titolo": "MeteoHeroes",
-                "descrizione": "Ep44 di 52 Una zattera per l'ambiente - Allarme dal Lago Batalon! Il livello dell'acqua e' sceso improvvisamente. Thermo, Pluvia e Fulmen vengono inviati per scoprire cosa sia successo."
-            },
-            {
-                "ora": "01:25",
-                "titolo": "Ben 10: Ultimate Challenge",
-                "descrizione": "Ep6 di 10 - I fan di Ben 10 si sfidano in una gara entusiasmante!"
-            },
             {
                 "ora": "01:50",
                 "titolo": "Ben 10: Ultimate Challenge",
@@ -2912,29 +2607,34 @@
                 "ora": "03:45",
                 "titolo": "MeteoHeroes",
                 "descrizione": "Ep46 di 52 Mulinelli di sabbia - Allarme in Cina: una terribile tempesta di sabbia e' iniziata vicino al confine con la Mongolia. Nix e Ventum vengono scelti per la missione."
+            },
+            {
+                "ora": "04:00",
+                "titolo": "MeteoHeroes",
+                "descrizione": "Ep34 di 52 Pesca di frodo - Allarme alle Isole Galapagos! Le autorita' peruviane sospettano attivita' di pesca illegale nella riserva naturale: Ventum e Nix vengono inviati sul posto."
+            },
+            {
+                "ora": "04:10",
+                "titolo": "Ben 10: Ultimate Challenge",
+                "descrizione": "Ep1 di 10 - I fan di Ben 10 si sfidano in una gara entusiasmante!"
+            },
+            {
+                "ora": "04:35",
+                "titolo": "MeteoHeroes",
+                "descrizione": "Ep39 di 52 La miniera in fondo al mare - Allarme dal Mar del Giappone! Tempus ha rilevato delle sospette attivita' dannose nella zona. Ventum e Pluvia devono indagare!"
+            },
+            {
+                "ora": "04:45",
+                "titolo": "MeteoHeroes",
+                "descrizione": "Ep36 di 52 Occhio di fuoco - Allarme dal Golfo del Messico! L'oceano sta bruciando! Una fuga di gas da un gasdotto sottomarino ha acceso un incendio sulla superficie dell'acqua!"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Sky TG 24",
         "categoria": "News",
         "programmi": [
-            {
-                "ora": "00:30",
-                "titolo": "TG24 Edicola",
-                "descrizione": "Telegiornale con la lettura dei principali quotidiani."
-            },
-            {
-                "ora": "01:00",
-                "titolo": "TG24 Edicola",
-                "descrizione": "Telegiornale con la lettura dei principali quotidiani."
-            },
-            {
-                "ora": "01:30",
-                "titolo": "TG24 Edicola",
-                "descrizione": "Telegiornale con la lettura dei principali quotidiani."
-            },
             {
                 "ora": "02:00",
                 "titolo": "TG24 Edicola",
@@ -2976,32 +2676,12 @@
                 "descrizione": "Telegiornale con la lettura dei principali quotidiani."
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     },
     {
         "canale": "Rai News 24",
         "categoria": "News",
         "programmi": [
-            {
-                "ora": "00:30",
-                "titolo": "Rassegna Stampa",
-                "descrizione": "Rassegna Stampa"
-            },
-            {
-                "ora": "01:00",
-                "titolo": "News",
-                "descrizione": "News"
-            },
-            {
-                "ora": "01:30",
-                "titolo": "News",
-                "descrizione": "News"
-            },
-            {
-                "ora": "01:45",
-                "titolo": "Central Park West",
-                "descrizione": "Central Park West"
-            },
             {
                 "ora": "02:00",
                 "titolo": "Rassegna Stampa",
@@ -3041,8 +2721,23 @@
                 "ora": "04:30",
                 "titolo": "News",
                 "descrizione": "News"
+            },
+            {
+                "ora": "04:45",
+                "titolo": "Focus 24",
+                "descrizione": "Focus 24"
+            },
+            {
+                "ora": "05:00",
+                "titolo": "News + Rassegna Stampa",
+                "descrizione": "News + Rassegna Stampa"
+            },
+            {
+                "ora": "05:30",
+                "titolo": "News + Rassegna Stampa",
+                "descrizione": "News + Rassegna Stampa"
             }
         ],
-        "aggiornato": "22:56"
+        "aggiornato": "00:13"
     }
 ]
