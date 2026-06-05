@@ -426,6 +426,7 @@ class SkyScraper {
                         }
 
                         if (!empty($raw_programs)) {
+                            // Filtra tutti i programmi di oggi
                             $today_programs = [];
                             foreach ($raw_programs as $p) {
                                 $p_inizio = clone $p['inizio_dt'];
@@ -439,31 +440,10 @@ class SkyScraper {
                                 $today_programs = $raw_programs;
                             }
 
-                            $current_index = -1;
-                            $now_ts = $now->getTimestamp();
-                            foreach ($today_programs as $i => $p) {
-                                if ($p['inizio_dt']->getTimestamp() <= $now_ts && $now_ts < $p['fine_dt']->getTimestamp()) {
-                                    $current_index = $i;
-                                    break;
-                                }
-                            }
-
-                            if ($current_index === -1) {
-                                foreach ($today_programs as $i => $p) {
-                                    if ($p['inizio_dt']->getTimestamp() >= $now_ts) {
-                                        $current_index = $i;
-                                        break;
-                                    }
-                                }
-                            }
-
-                            if ($current_index === -1) {
-                                $current_index = 0;
-                            }
-
-                            $selected = array_slice($today_programs, $current_index);
+                            // Salva TUTTI i programmi del giorno (non solo dal corrente in poi)
+                            // Il frontend gestisce autonomamente il contrassegno live/passato/futuro
                             $extracted = [];
-                            foreach ($selected as $p) {
+                            foreach ($today_programs as $p) {
                                 $p_inizio = clone $p['inizio_dt'];
                                 $p_inizio->setTimezone($rome_tz);
                                 $local_start = $p_inizio->format('H:i');
@@ -689,7 +669,7 @@ class SkyScraper {
                     $updated_channels[$channel_name] = [
                         "canale" => $channel_name,
                         "categoria" => $ch_info['categoria'],
-                        "programmi" => array_slice($unique_progs, 0, 12),
+                        "programmi" => array_slice($unique_progs, 0, 30),
                         "aggiornato" => date("H:i")
                     ];
                     $channels_scraped_count++;
