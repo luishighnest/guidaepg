@@ -383,8 +383,8 @@ class SkyScraper {
         }
 
         if ($all_text) {
-            preg_match_all('/self\.__next_f\.push\(\[\d+,\s*"(.*?)"\]\)/s', $all_text, $chunk_matches);
-            $chunks = $chunk_matches[1] ?? [];
+            preg_match_all('/self\.__next_f\.push\(\[(\d+),\s*"(.*?)"\]\)/s', $all_text, $chunk_matches);
+            $chunks = $chunk_matches[2] ?? []; // gruppo 2 = contenuto stringa (gruppo 1 = indice numerico)
 
             $prog_chunk = null;
             foreach ($chunks as $raw_val) {
