@@ -218,14 +218,28 @@ class SkyScraper {
     }
 
     private function cleanDescription($desc) {
-        if (!$desc) {
-            return $desc;
+        if (empty($desc)) {
+            return "";
         }
         $cleaned = trim($desc);
-        $cleaned = preg_replace('/^(?:\.{2,}|\x{2026})+\s*/u', '', $cleaned);
+        
+        $res = preg_replace('/^(?:\.{2,}|\x{2026})+\s*/u', '', $cleaned);
+        if ($res !== null) {
+            $cleaned = $res;
+        }
+        
         $cleaned = str_replace(["\xc2\xa0", "\xa0"], ' ', $cleaned);
-        $cleaned = preg_replace('/[\x{0080}-\x{009F}\x{FFFD}]/u', '', $cleaned);
-        $cleaned = preg_replace('/ +/', ' ', $cleaned);
+        
+        $res = preg_replace('/[\x{0080}-\x{009F}\x{FFFD}]/u', '', $cleaned);
+        if ($res !== null) {
+            $cleaned = $res;
+        }
+        
+        $res = preg_replace('/ +/', ' ', $cleaned);
+        if ($res !== null) {
+            $cleaned = $res;
+        }
+        
         return trim($cleaned);
     }
 
