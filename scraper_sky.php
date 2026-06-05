@@ -136,9 +136,6 @@ class SkyScraper {
         }
     }
 
-    private function saveDescCache() {
-        file_put_contents($this->cache_file, json_encode($this->desc_cache, JSON_UNESCAPED_UNICODE));
-    }
 
     private function removeDates($s) {
         $s = preg_replace('/\s*\d{1,2}\/\d{1,2}\/\d{4}/u', '', $s);
@@ -609,6 +606,13 @@ class SkyScraper {
         return $extracted;
     }
 
+    private function saveDescCache() {
+        $json_content = json_encode($this->desc_cache, JSON_UNESCAPED_UNICODE | JSON_INVALID_UTF8_SUBSTITUTE);
+        if ($json_content !== false && !empty($json_content)) {
+            file_put_contents($this->cache_file, $json_content);
+        }
+    }
+
     public function run() {
         $start_time = microtime(true);
         $max_execution_time = 22; // Secondi massimi concessi al loop dei download per evitare timeout
@@ -706,8 +710,13 @@ class SkyScraper {
 
         $final_data = array_values($final_data_map);
 
-        // Scrive il JSON
-        file_put_contents($epg_file, json_encode($final_data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+        // Scrive il JSON con controllo di sicurezza UTF-8
+        $json_content = json_encode($final_data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_INVALID_UTF8_SUBSTITUTE);
+        if ($json_content !== false && !empty($json_content)) {
+            file_put_contents($epg_file, $json_content);
+        } else {
+            return false;
+        }
         
         $this->saveDescCache();
         return true;
