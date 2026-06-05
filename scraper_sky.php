@@ -626,7 +626,7 @@ class SkyScraper {
 
     public function run() {
         $start_time = microtime(true);
-        $max_execution_time = 22; // Secondi massimi concessi al loop dei download per evitare timeout
+        $max_execution_time = 28; // Secondi massimi concessi al loop dei download per evitare timeout
 
         $channels = $this->getMatchedChannels();
         if (empty($channels)) {
@@ -674,8 +674,8 @@ class SkyScraper {
             curl_setopt($ch, CURLOPT_URL, $ch_info['url']);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($ch, CURLOPT_USERAGENT, $this->user_agent);
-            curl_setopt($ch, CURLOPT_TIMEOUT, 2); 
-            curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 1);
+            curl_setopt($ch, CURLOPT_TIMEOUT, 6);          // RSC pages sono ~100KB, serve più tempo
+            curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 3);
             curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
             
@@ -685,7 +685,10 @@ class SkyScraper {
 
             if ($http_code === 200 && $html) {
                 $programs = $this->extractPrograms($html);
-                if (!empty($programs)) {
+                // Salta canali con un solo programma "Programmazione non disponibile" (nessuna guida reale)
+                $is_no_data = (count($programs) === 1 &&
+                    mb_strtolower(trim($programs[0]['titolo'] ?? '')) === 'programmazione non disponibile');
+                if (!empty($programs) && !$is_no_data) {
                     $seen = [];
                     $unique_progs = [];
                     foreach ($programs as $p) {
