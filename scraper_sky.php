@@ -497,7 +497,9 @@ class SkyScraper {
                 }
 
                 $extracted = [];
+                $count = 0;
                 foreach ($programs_list as $p) {
+                    $count++;
                     $ora_raw = !empty($p['startTime']) ? $p['startTime'] : (!empty($p['ora']) ? $p['ora'] : "");
                     $ora = "";
                     if (strpos((string)$ora_raw, 'T') !== false) {
@@ -530,7 +532,8 @@ class SkyScraper {
                                     (substr($desc_raw, -3) === '...') || 
                                     (mb_substr($desc_raw, -1) === '…');
 
-                    if ($is_truncated && $detail_url) {
+                    // Scarica la descrizione estesa solo per i primi 2 programmi della giornata (i più rilevanti)
+                    if ($is_truncated && $detail_url && $count <= 2) {
                         $full_desc = $this->getFullDescription($detail_url);
                         if ($full_desc) {
                             $desc_raw = $full_desc;
@@ -557,6 +560,7 @@ class SkyScraper {
         // Fallback 2: regex DOM-like
         preg_match_all('/<(div|li|a)\b[^>]*>(.*?)<\/\1>/si', $html, $matches_tags);
         $extracted = [];
+        $count = 0;
         if (!empty($matches_tags[0])) {
             foreach ($matches_tags[0] as $tag_html) {
                 $text = trim(html_entity_decode(strip_tags($tag_html), ENT_QUOTES, 'UTF-8'));
@@ -567,6 +571,7 @@ class SkyScraper {
                     $ora = rtrim($ora_raw, '.');
 
                     if (strlen($ora) === 5 && $ora[2] === ':') {
+                        $count++;
                         $titolo_raw = isset($parts[1]) ? trim($parts[1]) : "Programma";
                         $descrizione = "";
 
@@ -591,7 +596,8 @@ class SkyScraper {
                                         (substr($descrizione, -3) === '...') || 
                                         (mb_substr($descrizione, -1) === '…');
 
-                        if ($is_truncated && $detail_url) {
+                        // Scarica la descrizione estesa solo per i primi 2 programmi (i più rilevanti)
+                        if ($is_truncated && $detail_url && $count <= 2) {
                             $full_desc = $this->getFullDescription($detail_url);
                             if ($full_desc) {
                                 $descrizione = $full_desc;
